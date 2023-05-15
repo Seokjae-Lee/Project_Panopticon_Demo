@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1357.3334
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Inspector
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -41,7 +41,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 300
+    width: 427.33334
     height: 1307.3334
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
@@ -75,7 +75,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 16
+  controlID: 39
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -119,7 +119,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 977.3333
-    width: 1618.6666
+    width: 1491.3333
     height: 330.00006
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
@@ -217,14 +217,14 @@ MonoBehaviour:
   - {fileID: 5}
   m_Position:
     serializedVersion: 2
-    x: 300
+    x: 427.33334
     y: 0
-    width: 1618.6666
+    width: 1491.3333
     height: 1307.3334
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 17
+  controlID: 45
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -242,7 +242,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1618.6666
+    width: 1491.3333
     height: 977.3333
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -273,9 +273,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 300
+    x: 427.33334
     y: 1050
-    width: 1616.6666
+    width: 1489.3333
     height: 309.00006
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -295,21 +295,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/SkySeries Freebie
+    - Assets/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/SkySeries Freebie
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\gltp5\Project_Panopticon_Demo
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 98.99994}
-    m_SelectedIDs: 006f0000
-    m_LastClickedID: 28416
+    m_SelectedIDs: f86e0000
+    m_LastClickedID: 28408
     m_ExpandedIDs: 000000005c6d00005e6d0000606d0000626d0000646d0000666d0000686d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -460,7 +460,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 72.66667
-    width: 299
+    width: 426.33334
     height: 1286.3334
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -469,10 +469,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 546f0000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 2efbffff
+      scrollPos: {x: 0, y: 254.66663}
+      m_SelectedIDs: 2cfbffff
+      m_LastClickedID: -1236
+      m_ExpandedIDs: c2e0ffffc2ecffffa2f8ffff2efbfffffe64000010650000246500003e65000056650000766500008065000092650000966500009e650000a6650000bc650000ce650000e0650000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -517,9 +517,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 300
+    x: 427.33334
     y: 72.66667
-    width: 1616.6666
+    width: 1489.3333
     height: 956.3333
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -756,9 +756,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.5820388, y: 20.042261, z: -5.0217047}
+    m_Target: {x: 1.2819383, y: 0.8528465, z: 1.1724902}
     speed: 2
-    m_Value: {x: 1.5820388, y: 20.042261, z: -5.0217047}
+    m_Value: {x: 1.2819383, y: 0.8528465, z: 1.1724902}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -805,13 +805,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.38106725, y: -0.19656152, z: 0.1341733, w: 0.89673173}
+    m_Target: {x: -0.13533497, y: -0.37053582, z: 0.06005809, w: -0.91787785}
     speed: 2
-    m_Value: {x: 0.38107133, y: -0.19711336, z: 0.13464287, w: 0.8931977}
+    m_Value: {x: -0.13512863, y: -0.37159297, z: 0.060209297, w: -0.9165336}
   m_Size:
     m_Target: 0.8660254
     speed: 2
-    m_Value: 0.8660254
+    m_Value: 4.994248
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -899,7 +899,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
