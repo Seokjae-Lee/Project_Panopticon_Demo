@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49227
+61315
 Successfully changed project path to: /Users/ishma/Project_Panopticon_Demo
 /Users/ishma/Project_Panopticon_Demo
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,11 +54,11 @@ Successfully changed project path to: /Users/ishma/Project_Panopticon_Demo
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8390581760] Host "[IP] 172.20.10.4 [Port] 0 [Flags] 2 [Guid] 1201868288 [EditorId] 1201868288 [Version] 1048832 [Id] OSXEditor(0,iseogjaeui-noteubug.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8390581760] Host "[IP] 192.0.0.2 [Port] 0 [Flags] 2 [Guid] 671461251 [EditorId] 671461251 [Version] 1048832 [Id] OSXEditor(0,iseogjaeui-noteubug.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8390581760] Host "[IP] 172.20.10.4 [Port] 0 [Flags] 2 [Guid] 1201868288 [EditorId] 1201868288 [Version] 1048832 [Id] OSXEditor(0,iseogjaeui-noteubug.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8390581760] Host "[IP] 192.0.0.2 [Port] 0 [Flags] 2 [Guid] 671461251 [EditorId] 671461251 [Version] 1048832 [Id] OSXEditor(0,iseogjaeui-noteubug.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 90.03 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 90.29 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.22f1 (b6c551784ba3)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -75,55 +75,55 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56215
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56255
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.22f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.22f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.22f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000939 seconds.
+Registered in 0.000644 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 66 ms
+Android Extension - Scanning For ADB Devices 72 ms
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 87.86 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 94.96 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.506 seconds
+- Completed reload, in  0.559 seconds
 Domain Reload Profiling:
-	ReloadAssembly (506ms)
-		BeginReloadAssembly (38ms)
+	ReloadAssembly (559ms)
+		BeginReloadAssembly (42ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (416ms)
-			LoadAssemblies (38ms)
+		EndReloadAssembly (458ms)
+			LoadAssemblies (41ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (64ms)
+			SetupTypeCache (83ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (17ms)
-			SetupLoadedEditorAssemblies (311ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (324ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (163ms)
+				InitializePlatformSupportModulesInManaged (159ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (88ms)
+				RefreshPlugins (95ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (40ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
+				ProcessInitializeOnLoadAttributes (46ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001771 seconds.
+Registered in 0.001463 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/ishma/Project_Panopticon_Demo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/ishma/Project_Panopticon_Demo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
@@ -131,32 +131,32 @@ Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 94.14 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 101.18 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.714 seconds
+- Completed reload, in  0.840 seconds
 Domain Reload Profiling:
-	ReloadAssembly (714ms)
-		BeginReloadAssembly (61ms)
+	ReloadAssembly (841ms)
+		BeginReloadAssembly (85ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (596ms)
-			LoadAssemblies (37ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (688ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (153ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (343ms)
+			SetupTypeCache (191ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (369ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (94ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (139ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				RefreshPlugins (101ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (144ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -180,12 +180,12 @@ Shader 'SyntyStudios/Prototype_Global_URP': fallback shader 'Hidden/Shader Graph
 Shader 'SyntyStudios/Prototype_Glass_Object_URP': fallback shader 'Hidden/Shader Graph/FallbackError' not found
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4708 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (453.8 KB). Loaded Objects now: 5172.
-Memory consumption went from 182.8 MB to 182.3 MB.
-Total: 2.486125 ms (FindLiveObjects: 0.137625 ms CreateObjectMapping: 0.061125 ms MarkObjects: 2.156667 ms  DeleteObjects: 0.129916 ms)
+Unloading 30 unused Assets / (454.7 KB). Loaded Objects now: 5172.
+Memory consumption went from 183.1 MB to 182.6 MB.
+Total: 2.565458 ms (FindLiveObjects: 0.137334 ms CreateObjectMapping: 0.061000 ms MarkObjects: 2.222375 ms  DeleteObjects: 0.144000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -199,266 +199,348 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 133.335438 seconds.
-  path: Assets/Scenes/Panopticon_Demo.unity
-  artifactKey: Guid(041695265b41678439ffcc6af8b7cb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Panopticon_Demo.unity using Guid(041695265b41678439ffcc6af8b7cb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f175eabd61fdc336370ec8ff7d5b7302') in 0.006171 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.402774 seconds.
+  Time since last request: 149335.908745 seconds.
   path: Assets/Scenes/Panopticon_Demo 1.unity
   artifactKey: Guid(715297677d3d64194ac486677ec169b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Panopticon_Demo 1.unity using Guid(715297677d3d64194ac486677ec169b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39173b7556eac0b74fc1b5202b797933') in 0.000660 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.835456 seconds.
-  path: Assets/Scenes/PanopticonCopy.unity
-  artifactKey: Guid(041695265b41678439ffcc6af8b7cb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/PanopticonCopy.unity using Guid(041695265b41678439ffcc6af8b7cb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1404d2e1f2a47dea59202ca551581568') in 0.000559 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 411.901269 seconds.
-  path: Assets/SkySeries Freebie/ExampleScenes/SceneObjects/2_10.mat
-  artifactKey: Guid(eb10b6f571322b443bec8c532c088270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/ExampleScenes/SceneObjects/2_10.mat using Guid(eb10b6f571322b443bec8c532c088270) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractive': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveTransparent': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveMasked': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Shader Graphs/Decal': fallback shader 'Hidden/Shader Graph/FallbackError' not found
- -> (artifact id: 'df3e88c89b49cf26271f21f9f676f6a9') in 1.178887 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BoldItalic.ttf
-  artifactKey: Guid(dfb97a9307a577a41bcacba34b9a7e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BoldItalic.ttf using Guid(dfb97a9307a577a41bcacba34b9a7e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01412d83453575506130e260a4e841d') in 1.350471 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000526 seconds.
-  path: Assets/PolygonTown/Materials/Alternates/PolygonTown_04_C.mat
-  artifactKey: Guid(7f78f6690b4971247836df99a22ede8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Materials/Alternates/PolygonTown_04_C.mat using Guid(7f78f6690b4971247836df99a22ede8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9adddad49e9feb75e4e87254b5205ff') in 0.841136 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/PolygonTown/Materials/Alternates/PolygonTown_01_C.mat
-  artifactKey: Guid(bab002177b386b747b6b5085ad792f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Materials/Alternates/PolygonTown_01_C.mat using Guid(bab002177b386b747b6b5085ad792f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf15154569f829c82ecd3c60d90349a0') in 0.013432 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Bold.ttf
-  artifactKey: Guid(3750c318f40cab44a97d3a81beaefeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Bold.ttf using Guid(3750c318f40cab44a97d3a81beaefeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb6a08788c83d1e417066b824b8fd73') in 0.011106 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-ThinItalic.ttf
-  artifactKey: Guid(b2ea3b3f1765e544b9eb5bd1a93a91ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-ThinItalic.ttf using Guid(b2ea3b3f1765e544b9eb5bd1a93a91ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e7d15b502696aa476090f98a2d2524') in 0.008622 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Black.ttf
-  artifactKey: Guid(1062c701058745940ae5dca6219c64c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Black.ttf using Guid(1062c701058745940ae5dca6219c64c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db2fb7b6c463c9be45f71d9892dba99') in 0.008307 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Regular.ttf
-  artifactKey: Guid(30dc370b164eefc43b95744fc796dad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Regular.ttf using Guid(30dc370b164eefc43b95744fc796dad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b1f399a554a37ef6729954bb80c8b4') in 0.008375 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/SkySeries Freebie/ExampleScenes/SceneObjects/6_10.mat
-  artifactKey: Guid(abcc3c67b7d0a794f8bb91be4e85abdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/ExampleScenes/SceneObjects/6_10.mat using Guid(abcc3c67b7d0a794f8bb91be4e85abdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de787dc318f595bcd4cfb81473a90488') in 0.004831 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Medium.ttf
-  artifactKey: Guid(a51a3aebb43ac044989270407476b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Medium.ttf using Guid(a51a3aebb43ac044989270407476b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42237c279b8e4e38fc5d609f80314864') in 0.010507 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/PolygonTown/Materials/Alternates/PolygonTown_02_C.mat
-  artifactKey: Guid(cb3e8bc1d85c7f04dafa457c27f34ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Materials/Alternates/PolygonTown_02_C.mat using Guid(cb3e8bc1d85c7f04dafa457c27f34ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dcc03c0f167da911b439449546cdac6') in 0.011116 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Light.ttf
-  artifactKey: Guid(2a29e27936eb547458f646f71125b264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Light.ttf using Guid(2a29e27936eb547458f646f71125b264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b2643488d2bbb7dae63d183976a71cf') in 0.009199 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 343.376706 seconds.
-  path: Assets/SkySeries Freebie/ExampleScenes/SceneObjects/DemoObjects.prefab
-  artifactKey: Guid(88c20de6c1dc0f04abeaffaac0a9a6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/ExampleScenes/SceneObjects/DemoObjects.prefab using Guid(88c20de6c1dc0f04abeaffaac0a9a6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf147d90eb89385377dc217b19b2550') in 0.118020 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 37.598676 seconds.
-  path: Assets/PolygonPrototype/Textures
-  artifactKey: Guid(28ceb8bc5aa19864faf6071157aa0e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPrototype/Textures using Guid(28ceb8bc5aa19864faf6071157aa0e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da9d8399864f33de331344c22951c7d5') in 0.001988 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.314868 seconds.
-  path: Assets/PolygonTown/Models/Characters
-  artifactKey: Guid(08525404bdf78a34d8e084ccc1fc65fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/Characters using Guid(08525404bdf78a34d8e084ccc1fc65fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a72638378078e00b24b152947df73ac2') in 0.002610 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.072631 seconds.
-  path: Assets/PolygonTown/Models/Characters/Characters.fbx
-  artifactKey: Guid(2f51be603ea52db45be54e6116872d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/Characters/Characters.fbx using Guid(2f51be603ea52db45be54e6116872d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61fa84e42bf9c7ef5f1d746a6e63d2ba') in 0.373213 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.136254 seconds.
-  path: Assets/PolygonTown/Models/CollisionConvex/SM_Bld_Chimney_01_Convex.asset
-  artifactKey: Guid(1f65286c16b98394ea4f1909d030f393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/CollisionConvex/SM_Bld_Chimney_01_Convex.asset using Guid(1f65286c16b98394ea4f1909d030f393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b28779b9b340442ba6a20424459dab') in 0.046316 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/PolygonTown/Models/CollisionConvex/SM_Bld_Church_01_Convex.asset
-  artifactKey: Guid(acb967fa1d01e1e4b832463b3c35c48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/CollisionConvex/SM_Bld_Church_01_Convex.asset using Guid(acb967fa1d01e1e4b832463b3c35c48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a024361ba321dc0e63a0a56d220e39') in 0.003950 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_Deck_Roof_InnerCorner_01_Convex 1.asset
-  artifactKey: Guid(9870a1d1b22074f4fb19500305391ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_Deck_Roof_InnerCorner_01_Convex 1.asset using Guid(9870a1d1b22074f4fb19500305391ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e58a3576ca1796e189f1502c46deebe') in 0.008644 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_Concrete_Steps_01_Convex.asset
-  artifactKey: Guid(5501387531fe53648a5da941a41e270d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_Concrete_Steps_01_Convex.asset using Guid(5501387531fe53648a5da941a41e270d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64291cf119813ace2c858573b97a4b75') in 0.005091 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_Deck_Roof_02_Convex.asset
-  artifactKey: Guid(c17e49e353a1fd04d92549e11165c049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_Deck_Roof_02_Convex.asset using Guid(c17e49e353a1fd04d92549e11165c049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00590527af1e79963ac7d9a1d5442d57') in 0.007889 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_Deck_01_Convex.asset
-  artifactKey: Guid(2a8f822c89d54164dbf1f9df26a6c7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_Deck_01_Convex.asset using Guid(2a8f822c89d54164dbf1f9df26a6c7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '659b32296b55010cca28a22e2c424644') in 0.003707 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_Deck_Roof_InnerCorner_03_Convex 1.asset
-  artifactKey: Guid(8d0ed4e62fc6f1540813048b9b8ccb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_Deck_Roof_InnerCorner_03_Convex 1.asset using Guid(8d0ed4e62fc6f1540813048b9b8ccb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30e3d50bad8d1343cd37b44372521c7') in 0.006401 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_Deck_Roof_InnerCorner_03_Convex.asset
-  artifactKey: Guid(e2bbc207a10398a4dbcbc88d50c3751d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_Deck_Roof_InnerCorner_03_Convex.asset using Guid(e2bbc207a10398a4dbcbc88d50c3751d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a5d676d0878f557d54bb6d8b45d423') in 0.004375 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_Deck_05_Convex.asset
-  artifactKey: Guid(f328628c31058c44f93dbff7e254c081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_Deck_05_Convex.asset using Guid(f328628c31058c44f93dbff7e254c081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f449d1fb2d663e809ae9a8268d67d3') in 0.004140 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_Deck_Roof_InnerCorner_02_Convex 1.asset
-  artifactKey: Guid(d36ff596db5e9534fa2d2b9326883186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_Deck_Roof_InnerCorner_02_Convex 1.asset using Guid(d36ff596db5e9534fa2d2b9326883186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2b2fe713622cdc200189a9cdba01ee') in 0.006629 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_Deck_Rail_End_01_Convex.asset
-  artifactKey: Guid(5d095208763b600418522f80788bc60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_Deck_Rail_End_01_Convex.asset using Guid(5d095208763b600418522f80788bc60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0e40fc6622db85af91e8674e340c97') in 0.004032 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_Deck_Roof_InnerCorner_01_Convex.asset
-  artifactKey: Guid(a842c5f546514824e9826b6133bd0942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_Deck_Roof_InnerCorner_01_Convex.asset using Guid(a842c5f546514824e9826b6133bd0942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a2e7186b0275d51b46b4fc7e8608c9') in 0.004002 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_Deck_02_Convex.asset
-  artifactKey: Guid(e12954b018d2c5e419759a41fcaee5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_Deck_02_Convex.asset using Guid(e12954b018d2c5e419759a41fcaee5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4591858afbce552876dc475ffa6b2538') in 0.004646 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_Deck_Rail_01_Convex.asset
-  artifactKey: Guid(ae9182c4aebb8864e8db3b4ede797fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_Deck_Rail_01_Convex.asset using Guid(ae9182c4aebb8864e8db3b4ede797fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e86fd698023b8e5e6fa155d375cabb') in 0.005018 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_DeckSteps_01_Convex.asset
-  artifactKey: Guid(3291592c1c560634ba5e8bb6436b6344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_DeckSteps_01_Convex.asset using Guid(3291592c1c560634ba5e8bb6436b6344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29772014f573f320755027c20c35d27') in 0.006005 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_Deck_Roof_End_01_Convex.asset
-  artifactKey: Guid(07a602e7f77c5e5469379fce6290b2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_Deck_Roof_End_01_Convex.asset using Guid(07a602e7f77c5e5469379fce6290b2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43a10c7402b16e9f7c65dd427a44edf') in 0.005377 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_Deck_03_Convex.asset
-  artifactKey: Guid(a06aa888b1b247c40b4ced26e493e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_Deck_03_Convex.asset using Guid(a06aa888b1b247c40b4ced26e493e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60bb3f939b306987e5ef7dbf402b7142') in 0.005791 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_Deck_Post_01_Convex.asset
-  artifactKey: Guid(9cba11c0798b36447bedad2b2d1a08b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_Deck_Post_01_Convex.asset using Guid(9cba11c0798b36447bedad2b2d1a08b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '076f2121f2fec18e940325dc90a9085d') in 0.006244 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_Deck_Roof_InnerCorner_02_Convex.asset
-  artifactKey: Guid(7ecdd18b0406f014aa8d2f7a4acbc1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_Deck_Roof_InnerCorner_02_Convex.asset using Guid(7ecdd18b0406f014aa8d2f7a4acbc1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acbc10544740c04c519358f49e93ecd7') in 0.007023 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/PolygonTown/Models/CollisionConvex/SM_Bld_GardenShed_01_Convex.asset
-  artifactKey: Guid(3cc524535e375d44caa669726c33927f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/CollisionConvex/SM_Bld_GardenShed_01_Convex.asset using Guid(3cc524535e375d44caa669726c33927f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c951e8c83404c7f3aa187bf6991fea5') in 0.006921 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_Door_01_Convex 1.asset
-  artifactKey: Guid(57c88dd7b28796f4ea5d3f4f8fcd9554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_Door_01_Convex 1.asset using Guid(57c88dd7b28796f4ea5d3f4f8fcd9554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61923a5c387f357151f16f003e9ae2db') in 0.018742 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_Deck_Roof_01_Convex.asset
-  artifactKey: Guid(5a745ffeafb79344a9756a0affb71a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/CollisionConvex/SM_Bld_House_Deck_Roof_01_Convex.asset using Guid(5a745ffeafb79344a9756a0affb71a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef8f247e4580455401698767011042a') in 0.007383 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 107.239179 seconds.
-  path: Assets/Scenes/PanopticonCopy.unity
-  artifactKey: Guid(041695265b41678439ffcc6af8b7cb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/PanopticonCopy.unity using Guid(041695265b41678439ffcc6af8b7cb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829679c94433074586b16665396be100') in 0.001374 seconds 
+Start importing Assets/Scenes/Panopticon_Demo 1.unity using Guid(715297677d3d64194ac486677ec169b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59669474910721898dc944a0261505b') in 0.006744 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001519 seconds.
+Registered in 0.001841 seconds.
 Begin MonoManager ReloadAssembly
-Thread 0x2ada57000 may have been prematurely finalized
+Thread 0x2a9e87000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/ishma/Project_Panopticon_Demo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/ishma/Project_Panopticon_Demo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.697 seconds
+Domain Reload Profiling:
+	ReloadAssembly (697ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (556ms)
+			LoadAssemblies (38ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (195ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (239ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (126ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Failed to load shader (instanceID 474, GUID 0f4122b9a743b744abe2fb6a0a88868b)
+Failed to load shader (instanceID 548, GUID a16365e8c873daa4c94919438490b905)
+Failed to load shader (instanceID 458, GUID 5caf62d8bd7c44596ace77ef9eb8ea31)
+Failed to load shader (instanceID 550, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 552, GUID 77cfa04f893eb8745b6a454a3d51b43c)
+Failed to load shader (instanceID 554, GUID 0d0f817524897904ba47a6a1d55e7668)
+Failed to load shader (instanceID 480, GUID 69c1f799e772cb6438f56c23efccb782)
+Failed to load shader (instanceID 460, GUID da07703fcc09f8d4799221050659bd55)
+Failed to load shader (instanceID 556, GUID 2df96b66b5510f94b98df2ac6f926ef4)
+Failed to load shader (instanceID 456, GUID 50b406436c6214c49aaaa6011b71dde8)
+Failed to load shader (instanceID 558, GUID 4386e57b23a56004c93e1d57d2bbcb4f)
+Failed to load shader (instanceID 560, GUID 95e15a77195eb574ab82aaac18b1c796)
+Shader 'SyntyStudios/Prototype_Global_URP': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'SyntyStudios/Prototype_Glass_Object_URP': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4589 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (415.9 KB). Loaded Objects now: 5175.
+Memory consumption went from 176.7 MB to 176.3 MB.
+Total: 2.496709 ms (FindLiveObjects: 0.129500 ms CreateObjectMapping: 0.056292 ms MarkObjects: 2.172042 ms  DeleteObjects: 0.138167 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001917 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x2941a7000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/ishma/Project_Panopticon_Demo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/ishma/Project_Panopticon_Demo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.703 seconds
+Domain Reload Profiling:
+	ReloadAssembly (703ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (557ms)
+			LoadAssemblies (40ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (199ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (236ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (125ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Failed to load shader (instanceID 474, GUID 0f4122b9a743b744abe2fb6a0a88868b)
+Failed to load shader (instanceID 548, GUID a16365e8c873daa4c94919438490b905)
+Failed to load shader (instanceID 458, GUID 5caf62d8bd7c44596ace77ef9eb8ea31)
+Failed to load shader (instanceID 550, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 552, GUID 77cfa04f893eb8745b6a454a3d51b43c)
+Failed to load shader (instanceID 554, GUID 0d0f817524897904ba47a6a1d55e7668)
+Failed to load shader (instanceID 480, GUID 69c1f799e772cb6438f56c23efccb782)
+Failed to load shader (instanceID 460, GUID da07703fcc09f8d4799221050659bd55)
+Failed to load shader (instanceID 556, GUID 2df96b66b5510f94b98df2ac6f926ef4)
+Failed to load shader (instanceID 456, GUID 50b406436c6214c49aaaa6011b71dde8)
+Failed to load shader (instanceID 558, GUID 4386e57b23a56004c93e1d57d2bbcb4f)
+Failed to load shader (instanceID 560, GUID 95e15a77195eb574ab82aaac18b1c796)
+Shader 'SyntyStudios/Prototype_Global_URP': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'SyntyStudios/Prototype_Glass_Object_URP': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4589 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (415.9 KB). Loaded Objects now: 5178.
+Memory consumption went from 176.7 MB to 176.3 MB.
+Total: 2.556375 ms (FindLiveObjects: 0.159542 ms CreateObjectMapping: 0.062500 ms MarkObjects: 2.184917 ms  DeleteObjects: 0.148625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1300.511779 seconds.
+  path: Assets/Prefabs/cell_allwindow.prefab
+  artifactKey: Guid(93092aef779b34c298cd0e9d7ab85d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/cell_allwindow.prefab using Guid(93092aef779b34c298cd0e9d7ab85d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractive': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveTransparent': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveMasked': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Shader Graphs/Decal': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+ -> (artifact id: '0e97da9392a1852394a7abf735a3c361') in 0.573542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.591440 seconds.
+  path: Assets/Prefabs/SM_Prop_BedsideTable_01.prefab
+  artifactKey: Guid(fa77bec0430a346baa4359c44ab3f184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SM_Prop_BedsideTable_01.prefab using Guid(fa77bec0430a346baa4359c44ab3f184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47ebcf2ed4782fdd40aba53d242d72a') in 0.017102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.458331 seconds.
+  path: Assets/Prefabs/SM_Prop_BedsideTable_01.prefab
+  artifactKey: Guid(fa77bec0430a346baa4359c44ab3f184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SM_Prop_BedsideTable_01.prefab using Guid(fa77bec0430a346baa4359c44ab3f184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1902a95fd96038d93a8526ac9856dfe') in 0.012798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 442.191357 seconds.
+  path: Assets/Prefabs/SM_Prop_BedsideTable_01.prefab
+  artifactKey: Guid(fa77bec0430a346baa4359c44ab3f184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SM_Prop_BedsideTable_01.prefab using Guid(fa77bec0430a346baa4359c44ab3f184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7dddf0fc89c35b340e556faceeaa36') in 0.013893 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001551 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x17fa87000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/ishma/Project_Panopticon_Demo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/ishma/Project_Panopticon_Demo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractive': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveTransparent': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveMasked': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Shader Graphs/Decal': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.722 seconds
+Domain Reload Profiling:
+	ReloadAssembly (723ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (571ms)
+			LoadAssemblies (39ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (196ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (235ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (126ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Failed to load shader (instanceID 474, GUID 0f4122b9a743b744abe2fb6a0a88868b)
+Failed to load shader (instanceID 548, GUID a16365e8c873daa4c94919438490b905)
+Failed to load shader (instanceID 458, GUID 5caf62d8bd7c44596ace77ef9eb8ea31)
+Failed to load shader (instanceID 550, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 552, GUID 77cfa04f893eb8745b6a454a3d51b43c)
+Failed to load shader (instanceID 554, GUID 0d0f817524897904ba47a6a1d55e7668)
+Failed to load shader (instanceID 480, GUID 69c1f799e772cb6438f56c23efccb782)
+Failed to load shader (instanceID 460, GUID da07703fcc09f8d4799221050659bd55)
+Failed to load shader (instanceID 556, GUID 2df96b66b5510f94b98df2ac6f926ef4)
+Failed to load shader (instanceID 456, GUID 50b406436c6214c49aaaa6011b71dde8)
+Failed to load shader (instanceID 558, GUID 4386e57b23a56004c93e1d57d2bbcb4f)
+Failed to load shader (instanceID 560, GUID 95e15a77195eb574ab82aaac18b1c796)
+Shader 'SyntyStudios/Prototype_Global_URP': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'SyntyStudios/Prototype_Glass_Object_URP': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4597 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (434.4 KB). Loaded Objects now: 5244.
+Memory consumption went from 185.8 MB to 185.4 MB.
+Total: 2.499833 ms (FindLiveObjects: 0.159042 ms CreateObjectMapping: 0.066375 ms MarkObjects: 2.141042 ms  DeleteObjects: 0.132625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002888 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x17fa87000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/ishma/Project_Panopticon_Demo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/ishma/Project_Panopticon_Demo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractive': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveTransparent': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveMasked': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Shader Graphs/Decal': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.710 seconds
+Domain Reload Profiling:
+	ReloadAssembly (711ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (570ms)
+			LoadAssemblies (39ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (198ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (237ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (127ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Failed to load shader (instanceID 474, GUID 0f4122b9a743b744abe2fb6a0a88868b)
+Failed to load shader (instanceID 548, GUID a16365e8c873daa4c94919438490b905)
+Failed to load shader (instanceID 458, GUID 5caf62d8bd7c44596ace77ef9eb8ea31)
+Failed to load shader (instanceID 550, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 552, GUID 77cfa04f893eb8745b6a454a3d51b43c)
+Failed to load shader (instanceID 554, GUID 0d0f817524897904ba47a6a1d55e7668)
+Failed to load shader (instanceID 480, GUID 69c1f799e772cb6438f56c23efccb782)
+Failed to load shader (instanceID 460, GUID da07703fcc09f8d4799221050659bd55)
+Failed to load shader (instanceID 556, GUID 2df96b66b5510f94b98df2ac6f926ef4)
+Failed to load shader (instanceID 456, GUID 50b406436c6214c49aaaa6011b71dde8)
+Failed to load shader (instanceID 558, GUID 4386e57b23a56004c93e1d57d2bbcb4f)
+Failed to load shader (instanceID 560, GUID 95e15a77195eb574ab82aaac18b1c796)
+Shader 'SyntyStudios/Prototype_Global_URP': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'SyntyStudios/Prototype_Glass_Object_URP': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4597 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (434.5 KB). Loaded Objects now: 5247.
+Memory consumption went from 185.8 MB to 185.4 MB.
+Total: 2.626833 ms (FindLiveObjects: 0.150708 ms CreateObjectMapping: 0.058791 ms MarkObjects: 2.258459 ms  DeleteObjects: 0.158000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001710 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x17fa87000 may have been prematurely finalized
 Symbol file LoadedFromMemory doesn't match image /Users/ishma/Project_Panopticon_Demo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/ishma/Project_Panopticon_Demo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractive': fallback shader 'Hidden/Shader Graph/FallbackError' not found
@@ -472,29 +554,29 @@ Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.642 seconds
+- Completed reload, in  0.700 seconds
 Domain Reload Profiling:
-	ReloadAssembly (642ms)
-		BeginReloadAssembly (92ms)
+	ReloadAssembly (701ms)
+		BeginReloadAssembly (79ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (502ms)
-			LoadAssemblies (38ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (562ms)
+			LoadAssemblies (37ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (164ms)
+			SetupTypeCache (193ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (211ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (239ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
+				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (41ms)
-				ProcessInitializeOnLoadAttributes (112ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -514,12 +596,12 @@ Failed to load shader (instanceID 558, GUID 4386e57b23a56004c93e1d57d2bbcb4f)
 Failed to load shader (instanceID 560, GUID 95e15a77195eb574ab82aaac18b1c796)
 Shader 'SyntyStudios/Prototype_Global_URP': fallback shader 'Hidden/Shader Graph/FallbackError' not found
 Shader 'SyntyStudios/Prototype_Glass_Object_URP': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4597 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (433.8 KB). Loaded Objects now: 5281.
-Memory consumption went from 215.3 MB to 214.9 MB.
-Total: 2.551500 ms (FindLiveObjects: 0.256292 ms CreateObjectMapping: 0.062875 ms MarkObjects: 2.106250 ms  DeleteObjects: 0.125125 ms)
+Unloading 23 unused Assets / (434.2 KB). Loaded Objects now: 5250.
+Memory consumption went from 185.8 MB to 185.4 MB.
+Total: 2.320417 ms (FindLiveObjects: 0.121000 ms CreateObjectMapping: 0.056375 ms MarkObjects: 1.990333 ms  DeleteObjects: 0.152250 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -534,9 +616,9 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001499 seconds.
+Registered in 0.001680 seconds.
 Begin MonoManager ReloadAssembly
-Thread 0x292bfb000 may have been prematurely finalized
+Thread 0x17fbef000 may have been prematurely finalized
 Symbol file LoadedFromMemory doesn't match image /Users/ishma/Project_Panopticon_Demo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/ishma/Project_Panopticon_Demo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractive': fallback shader 'Hidden/Shader Graph/FallbackError' not found
@@ -547,270 +629,36 @@ Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.611 seconds
+- Completed reload, in  0.708 seconds
 Domain Reload Profiling:
-	ReloadAssembly (612ms)
-		BeginReloadAssembly (81ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (480ms)
-			LoadAssemblies (37ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (156ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (208ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (40ms)
-				ProcessInitializeOnLoadAttributes (112ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Failed to load shader (instanceID 474, GUID 0f4122b9a743b744abe2fb6a0a88868b)
-Failed to load shader (instanceID 548, GUID a16365e8c873daa4c94919438490b905)
-Failed to load shader (instanceID 458, GUID 5caf62d8bd7c44596ace77ef9eb8ea31)
-Failed to load shader (instanceID 550, GUID 9c442dc870b456e48b615cd8add0e9ef)
-Failed to load shader (instanceID 552, GUID 77cfa04f893eb8745b6a454a3d51b43c)
-Failed to load shader (instanceID 554, GUID 0d0f817524897904ba47a6a1d55e7668)
-Failed to load shader (instanceID 480, GUID 69c1f799e772cb6438f56c23efccb782)
-Failed to load shader (instanceID 460, GUID da07703fcc09f8d4799221050659bd55)
-Failed to load shader (instanceID 556, GUID 2df96b66b5510f94b98df2ac6f926ef4)
-Failed to load shader (instanceID 456, GUID 50b406436c6214c49aaaa6011b71dde8)
-Failed to load shader (instanceID 558, GUID 4386e57b23a56004c93e1d57d2bbcb4f)
-Failed to load shader (instanceID 560, GUID 95e15a77195eb574ab82aaac18b1c796)
-Shader 'SyntyStudios/Prototype_Global_URP': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'SyntyStudios/Prototype_Glass_Object_URP': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4597 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (434.0 KB). Loaded Objects now: 5284.
-Memory consumption went from 215.2 MB to 214.8 MB.
-Total: 2.486209 ms (FindLiveObjects: 0.145209 ms CreateObjectMapping: 0.057750 ms MarkObjects: 2.131792 ms  DeleteObjects: 0.150667 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001539 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x292bfb000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/ishma/Project_Panopticon_Demo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/ishma/Project_Panopticon_Demo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractive': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveTransparent': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveMasked': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Shader Graphs/Decal': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.637 seconds
-Domain Reload Profiling:
-	ReloadAssembly (638ms)
-		BeginReloadAssembly (85ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (501ms)
-			LoadAssemblies (40ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (161ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (216ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (42ms)
-				ProcessInitializeOnLoadAttributes (114ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Failed to load shader (instanceID 474, GUID 0f4122b9a743b744abe2fb6a0a88868b)
-Failed to load shader (instanceID 548, GUID a16365e8c873daa4c94919438490b905)
-Failed to load shader (instanceID 458, GUID 5caf62d8bd7c44596ace77ef9eb8ea31)
-Failed to load shader (instanceID 550, GUID 9c442dc870b456e48b615cd8add0e9ef)
-Failed to load shader (instanceID 552, GUID 77cfa04f893eb8745b6a454a3d51b43c)
-Failed to load shader (instanceID 554, GUID 0d0f817524897904ba47a6a1d55e7668)
-Failed to load shader (instanceID 480, GUID 69c1f799e772cb6438f56c23efccb782)
-Failed to load shader (instanceID 460, GUID da07703fcc09f8d4799221050659bd55)
-Failed to load shader (instanceID 556, GUID 2df96b66b5510f94b98df2ac6f926ef4)
-Failed to load shader (instanceID 456, GUID 50b406436c6214c49aaaa6011b71dde8)
-Failed to load shader (instanceID 558, GUID 4386e57b23a56004c93e1d57d2bbcb4f)
-Failed to load shader (instanceID 560, GUID 95e15a77195eb574ab82aaac18b1c796)
-Shader 'SyntyStudios/Prototype_Global_URP': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'SyntyStudios/Prototype_Glass_Object_URP': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4597 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (433.7 KB). Loaded Objects now: 5287.
-Memory consumption went from 215.2 MB to 214.8 MB.
-Total: 2.417959 ms (FindLiveObjects: 0.151166 ms CreateObjectMapping: 0.059334 ms MarkObjects: 2.069208 ms  DeleteObjects: 0.137708 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001406 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x292beb000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/ishma/Project_Panopticon_Demo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/ishma/Project_Panopticon_Demo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractive': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveTransparent': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveMasked': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Shader Graphs/Decal': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.611 seconds
-Domain Reload Profiling:
-	ReloadAssembly (611ms)
-		BeginReloadAssembly (82ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (479ms)
-			LoadAssemblies (38ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (154ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (210ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (42ms)
-				ProcessInitializeOnLoadAttributes (111ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Failed to load shader (instanceID 474, GUID 0f4122b9a743b744abe2fb6a0a88868b)
-Failed to load shader (instanceID 548, GUID a16365e8c873daa4c94919438490b905)
-Failed to load shader (instanceID 458, GUID 5caf62d8bd7c44596ace77ef9eb8ea31)
-Failed to load shader (instanceID 550, GUID 9c442dc870b456e48b615cd8add0e9ef)
-Failed to load shader (instanceID 552, GUID 77cfa04f893eb8745b6a454a3d51b43c)
-Failed to load shader (instanceID 554, GUID 0d0f817524897904ba47a6a1d55e7668)
-Failed to load shader (instanceID 480, GUID 69c1f799e772cb6438f56c23efccb782)
-Failed to load shader (instanceID 460, GUID da07703fcc09f8d4799221050659bd55)
-Failed to load shader (instanceID 556, GUID 2df96b66b5510f94b98df2ac6f926ef4)
-Failed to load shader (instanceID 456, GUID 50b406436c6214c49aaaa6011b71dde8)
-Failed to load shader (instanceID 558, GUID 4386e57b23a56004c93e1d57d2bbcb4f)
-Failed to load shader (instanceID 560, GUID 95e15a77195eb574ab82aaac18b1c796)
-Shader 'SyntyStudios/Prototype_Global_URP': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'SyntyStudios/Prototype_Glass_Object_URP': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4597 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (433.8 KB). Loaded Objects now: 5290.
-Memory consumption went from 215.2 MB to 214.8 MB.
-Total: 2.507792 ms (FindLiveObjects: 0.164709 ms CreateObjectMapping: 0.064250 ms MarkObjects: 2.114125 ms  DeleteObjects: 0.163625 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001503 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x292beb000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/ishma/Project_Panopticon_Demo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/ishma/Project_Panopticon_Demo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractive': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveTransparent': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveMasked': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Shader Graphs/Decal': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.633 seconds
-Domain Reload Profiling:
-	ReloadAssembly (634ms)
+	ReloadAssembly (709ms)
 		BeginReloadAssembly (83ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (500ms)
-			LoadAssemblies (40ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (565ms)
+			LoadAssemblies (39ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (163ms)
+			SetupTypeCache (198ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (215ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (235ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
+				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (42ms)
-				ProcessInitializeOnLoadAttributes (115ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (125ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 Failed to load shader (instanceID 474, GUID 0f4122b9a743b744abe2fb6a0a88868b)
 Failed to load shader (instanceID 548, GUID a16365e8c873daa4c94919438490b905)
@@ -826,12 +674,12 @@ Failed to load shader (instanceID 558, GUID 4386e57b23a56004c93e1d57d2bbcb4f)
 Failed to load shader (instanceID 560, GUID 95e15a77195eb574ab82aaac18b1c796)
 Shader 'SyntyStudios/Prototype_Global_URP': fallback shader 'Hidden/Shader Graph/FallbackError' not found
 Shader 'SyntyStudios/Prototype_Glass_Object_URP': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4597 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (434.0 KB). Loaded Objects now: 5293.
-Memory consumption went from 215.3 MB to 214.8 MB.
-Total: 2.560708 ms (FindLiveObjects: 0.176250 ms CreateObjectMapping: 0.062459 ms MarkObjects: 2.107166 ms  DeleteObjects: 0.214375 ms)
+Unloading 23 unused Assets / (434.5 KB). Loaded Objects now: 5253.
+Memory consumption went from 185.8 MB to 185.4 MB.
+Total: 2.775959 ms (FindLiveObjects: 0.137375 ms CreateObjectMapping: 0.057375 ms MarkObjects: 2.393375 ms  DeleteObjects: 0.186875 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -846,9 +694,9 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001372 seconds.
+Registered in 0.001905 seconds.
 Begin MonoManager ReloadAssembly
-Thread 0x292beb000 may have been prematurely finalized
+Thread 0x296dc7000 may have been prematurely finalized
 Symbol file LoadedFromMemory doesn't match image /Users/ishma/Project_Panopticon_Demo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/ishma/Project_Panopticon_Demo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractive': fallback shader 'Hidden/Shader Graph/FallbackError' not found
@@ -862,237 +710,29 @@ Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.611 seconds
+- Completed reload, in  0.693 seconds
 Domain Reload Profiling:
-	ReloadAssembly (611ms)
-		BeginReloadAssembly (78ms)
+	ReloadAssembly (693ms)
+		BeginReloadAssembly (84ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (483ms)
-			LoadAssemblies (36ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (553ms)
+			LoadAssemblies (40ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (159ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (207ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (41ms)
-				ProcessInitializeOnLoadAttributes (110ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Failed to load shader (instanceID 474, GUID 0f4122b9a743b744abe2fb6a0a88868b)
-Failed to load shader (instanceID 548, GUID a16365e8c873daa4c94919438490b905)
-Failed to load shader (instanceID 458, GUID 5caf62d8bd7c44596ace77ef9eb8ea31)
-Failed to load shader (instanceID 550, GUID 9c442dc870b456e48b615cd8add0e9ef)
-Failed to load shader (instanceID 552, GUID 77cfa04f893eb8745b6a454a3d51b43c)
-Failed to load shader (instanceID 554, GUID 0d0f817524897904ba47a6a1d55e7668)
-Failed to load shader (instanceID 480, GUID 69c1f799e772cb6438f56c23efccb782)
-Failed to load shader (instanceID 460, GUID da07703fcc09f8d4799221050659bd55)
-Failed to load shader (instanceID 556, GUID 2df96b66b5510f94b98df2ac6f926ef4)
-Failed to load shader (instanceID 456, GUID 50b406436c6214c49aaaa6011b71dde8)
-Failed to load shader (instanceID 558, GUID 4386e57b23a56004c93e1d57d2bbcb4f)
-Failed to load shader (instanceID 560, GUID 95e15a77195eb574ab82aaac18b1c796)
-Shader 'SyntyStudios/Prototype_Global_URP': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'SyntyStudios/Prototype_Glass_Object_URP': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Refreshing native plugins compatible for Editor in 1.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4597 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (433.9 KB). Loaded Objects now: 5296.
-Memory consumption went from 215.3 MB to 214.8 MB.
-Total: 2.586334 ms (FindLiveObjects: 0.164292 ms CreateObjectMapping: 0.063958 ms MarkObjects: 2.198083 ms  DeleteObjects: 0.159167 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 2809.131628 seconds.
-  path: Assets/PolygonPrototype/Prefabs/Primitives
-  artifactKey: Guid(a9d6191385224754893e32f443849e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPrototype/Prefabs/Primitives using Guid(a9d6191385224754893e32f443849e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0062977f4a9a1d036224bec1051d47') in 0.014074 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.051218 seconds.
-  path: Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Cone_01.prefab
-  artifactKey: Guid(3067d9bc573646846a758efc3071a8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Cone_01.prefab using Guid(3067d9bc573646846a758efc3071a8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractive': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveTransparent': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveMasked': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Shader Graphs/Decal': fallback shader 'Hidden/Shader Graph/FallbackError' not found
- -> (artifact id: '951f4224b0ed94bf116c9ee36a6779b8') in 0.143997 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Helix_01.prefab
-  artifactKey: Guid(3a0bdc51b03761a4ebbd09ceda5d2d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Helix_01.prefab using Guid(3a0bdc51b03761a4ebbd09ceda5d2d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577be8fe1bdb3be780cbe1a789fb19fa') in 0.008336 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Torus_01.prefab
-  artifactKey: Guid(c7b3a6ce5b189dc4ba4b569b296cc51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Torus_01.prefab using Guid(c7b3a6ce5b189dc4ba4b569b296cc51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94661b140123e7216c73487971b43fd2') in 0.009465 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Cylander_05.prefab
-  artifactKey: Guid(f7f9075092adedc429950e5d74a37e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Cylander_05.prefab using Guid(f7f9075092adedc429950e5d74a37e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a936a9c8883ebc59b983e20ae3adf9') in 0.008564 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Cube_03.prefab
-  artifactKey: Guid(a4e5400b711cb57478dcf41916935a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Cube_03.prefab using Guid(a4e5400b711cb57478dcf41916935a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a3e1a2734fe46576d726dca1608196') in 0.008829 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Cylander_02.prefab
-  artifactKey: Guid(e66c76021795e384793454c342f03e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Cylander_02.prefab using Guid(e66c76021795e384793454c342f03e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9527d9fb78f1d0be35e250a887f0c8') in 0.006806 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Sphere_01.prefab
-  artifactKey: Guid(06c1f8f114e362a40a4c6a29c518c61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Sphere_01.prefab using Guid(06c1f8f114e362a40a4c6a29c518c61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa566664d067eec8419c8090af7ccfcf') in 0.009926 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Cube_04.prefab
-  artifactKey: Guid(960ffeabb9fd4df4eab7655950be7ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Cube_04.prefab using Guid(960ffeabb9fd4df4eab7655950be7ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6980676c628f3ab25ecc2087057b83a') in 0.011085 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Sphere_03.prefab
-  artifactKey: Guid(b2b603c900d83e942873b5dc37c173b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Sphere_03.prefab using Guid(b2b603c900d83e942873b5dc37c173b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caef5026317cbeff60a859a47ee9a0ea') in 0.008738 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Cone_03.prefab
-  artifactKey: Guid(90509c391a1c4da48830920ae0871c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Cone_03.prefab using Guid(90509c391a1c4da48830920ae0871c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f57778bcbd96d6d4cd0acd7947416f87') in 0.012522 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Cube_02.prefab
-  artifactKey: Guid(0b49b21974f2e634d8523f26d2e7516c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Cube_02.prefab using Guid(0b49b21974f2e634d8523f26d2e7516c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7b0c006e0c125987068a3e5fe2600b') in 0.007188 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Cube_01.prefab
-  artifactKey: Guid(d48f60124060f8548b8a1868eb1885ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Cube_01.prefab using Guid(d48f60124060f8548b8a1868eb1885ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cbaa6c6bf64f8082e4130530211c856') in 0.007444 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Cone_04.prefab
-  artifactKey: Guid(de7ff1b0144b81f49aaf43a3092ca65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Cone_04.prefab using Guid(de7ff1b0144b81f49aaf43a3092ca65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0cdf24fdb050851701688b4dd6d2cc7') in 0.007397 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Cylander_Wedge_01.prefab
-  artifactKey: Guid(ded5653a60f53e6418751ec5947f7f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Cylander_Wedge_01.prefab using Guid(ded5653a60f53e6418751ec5947f7f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1d8e9d5c3c9658fc382b20dd49ac85') in 0.010463 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Sphere_04.prefab
-  artifactKey: Guid(68601b90581660d4e9250577e43538c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Sphere_04.prefab using Guid(68601b90581660d4e9250577e43538c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99ee13c065ac3cb8b5d3ff89c6c0f5d') in 0.009056 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.925178 seconds.
-  path: Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Torus_02.prefab
-  artifactKey: Guid(b34905c7add24914e93ed52d3e59c349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Torus_02.prefab using Guid(b34905c7add24914e93ed52d3e59c349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7aedbe77579d88bc0bd660c098db781') in 0.007295 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Tube_01.prefab
-  artifactKey: Guid(0d288f00294b3c64ca1b66922463774f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Tube_01.prefab using Guid(0d288f00294b3c64ca1b66922463774f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6868352a4796bd3f8f615e700570ab') in 0.007922 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Torus_05.prefab
-  artifactKey: Guid(4b6acd645cbdc3d489293779f6e8ccf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Torus_05.prefab using Guid(4b6acd645cbdc3d489293779f6e8ccf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7edbd98f62d57aeb1120f415858183') in 0.012009 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.011369 seconds.
-  path: Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Tube_03.prefab
-  artifactKey: Guid(4d910ea616be1ae4689c17a178d1470c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Tube_03.prefab using Guid(4d910ea616be1ae4689c17a178d1470c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae839580976718d1c21f8a2305892c54') in 0.008049 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Wedge_01.prefab
-  artifactKey: Guid(c4cdd7c71e0cce945b0e9c2ce754d576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPrototype/Prefabs/Primitives/SM_Primitive_Wedge_01.prefab using Guid(c4cdd7c71e0cce945b0e9c2ce754d576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b72bba947ffa4c9024efafbf74d8ceb') in 0.008776 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001541 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x292beb000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/ishma/Project_Panopticon_Demo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/ishma/Project_Panopticon_Demo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractive': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveTransparent': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveMasked': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Shader Graphs/Decal': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.607 seconds
-Domain Reload Profiling:
-	ReloadAssembly (607ms)
-		BeginReloadAssembly (80ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (478ms)
-			LoadAssemblies (35ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (154ms)
+			SetupTypeCache (182ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (206ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (237ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (43ms)
-				ProcessInitializeOnLoadAttributes (107ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (127ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -1115,9 +755,9 @@ Shader 'SyntyStudios/Prototype_Glass_Object_URP': fallback shader 'Hidden/Shader
 Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4597 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (433.9 KB). Loaded Objects now: 5340.
-Memory consumption went from 215.4 MB to 215.0 MB.
-Total: 2.344333 ms (FindLiveObjects: 0.161292 ms CreateObjectMapping: 0.059958 ms MarkObjects: 1.972333 ms  DeleteObjects: 0.149916 ms)
+Unloading 23 unused Assets / (434.5 KB). Loaded Objects now: 5256.
+Memory consumption went from 185.8 MB to 185.4 MB.
+Total: 2.676083 ms (FindLiveObjects: 0.136625 ms CreateObjectMapping: 0.057250 ms MarkObjects: 2.333667 ms  DeleteObjects: 0.147708 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1132,165 +772,9 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001515 seconds.
+Registered in 0.001661 seconds.
 Begin MonoManager ReloadAssembly
-Thread 0x17a5c7000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/ishma/Project_Panopticon_Demo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/ishma/Project_Panopticon_Demo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractive': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveTransparent': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveMasked': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Shader Graphs/Decal': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.607 seconds
-Domain Reload Profiling:
-	ReloadAssembly (607ms)
-		BeginReloadAssembly (81ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (475ms)
-			LoadAssemblies (38ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (156ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (203ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (40ms)
-				ProcessInitializeOnLoadAttributes (107ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Failed to load shader (instanceID 474, GUID 0f4122b9a743b744abe2fb6a0a88868b)
-Failed to load shader (instanceID 548, GUID a16365e8c873daa4c94919438490b905)
-Failed to load shader (instanceID 458, GUID 5caf62d8bd7c44596ace77ef9eb8ea31)
-Failed to load shader (instanceID 550, GUID 9c442dc870b456e48b615cd8add0e9ef)
-Failed to load shader (instanceID 552, GUID 77cfa04f893eb8745b6a454a3d51b43c)
-Failed to load shader (instanceID 554, GUID 0d0f817524897904ba47a6a1d55e7668)
-Failed to load shader (instanceID 480, GUID 69c1f799e772cb6438f56c23efccb782)
-Failed to load shader (instanceID 460, GUID da07703fcc09f8d4799221050659bd55)
-Failed to load shader (instanceID 556, GUID 2df96b66b5510f94b98df2ac6f926ef4)
-Failed to load shader (instanceID 456, GUID 50b406436c6214c49aaaa6011b71dde8)
-Failed to load shader (instanceID 558, GUID 4386e57b23a56004c93e1d57d2bbcb4f)
-Failed to load shader (instanceID 560, GUID 95e15a77195eb574ab82aaac18b1c796)
-Shader 'SyntyStudios/Prototype_Global_URP': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'SyntyStudios/Prototype_Glass_Object_URP': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4597 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (433.9 KB). Loaded Objects now: 5343.
-Memory consumption went from 215.4 MB to 214.9 MB.
-Total: 2.509750 ms (FindLiveObjects: 0.146334 ms CreateObjectMapping: 0.060500 ms MarkObjects: 2.154958 ms  DeleteObjects: 0.147375 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001465 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x292beb000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/ishma/Project_Panopticon_Demo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/ishma/Project_Panopticon_Demo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractive': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveTransparent': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveMasked': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Shader Graphs/Decal': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.597 seconds
-Domain Reload Profiling:
-	ReloadAssembly (597ms)
-		BeginReloadAssembly (75ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (473ms)
-			LoadAssemblies (35ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (154ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (204ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (40ms)
-				ProcessInitializeOnLoadAttributes (109ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Failed to load shader (instanceID 474, GUID 0f4122b9a743b744abe2fb6a0a88868b)
-Failed to load shader (instanceID 548, GUID a16365e8c873daa4c94919438490b905)
-Failed to load shader (instanceID 458, GUID 5caf62d8bd7c44596ace77ef9eb8ea31)
-Failed to load shader (instanceID 550, GUID 9c442dc870b456e48b615cd8add0e9ef)
-Failed to load shader (instanceID 552, GUID 77cfa04f893eb8745b6a454a3d51b43c)
-Failed to load shader (instanceID 554, GUID 0d0f817524897904ba47a6a1d55e7668)
-Failed to load shader (instanceID 480, GUID 69c1f799e772cb6438f56c23efccb782)
-Failed to load shader (instanceID 460, GUID da07703fcc09f8d4799221050659bd55)
-Failed to load shader (instanceID 556, GUID 2df96b66b5510f94b98df2ac6f926ef4)
-Failed to load shader (instanceID 456, GUID 50b406436c6214c49aaaa6011b71dde8)
-Failed to load shader (instanceID 558, GUID 4386e57b23a56004c93e1d57d2bbcb4f)
-Failed to load shader (instanceID 560, GUID 95e15a77195eb574ab82aaac18b1c796)
-Shader 'SyntyStudios/Prototype_Global_URP': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'SyntyStudios/Prototype_Glass_Object_URP': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4597 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (433.9 KB). Loaded Objects now: 5346.
-Memory consumption went from 215.4 MB to 215.0 MB.
-Total: 2.519583 ms (FindLiveObjects: 0.157291 ms CreateObjectMapping: 0.064208 ms MarkObjects: 2.147917 ms  DeleteObjects: 0.149500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001436 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x292beb000 may have been prematurely finalized
+Thread 0x296dc7000 may have been prematurely finalized
 Symbol file LoadedFromMemory doesn't match image /Users/ishma/Project_Panopticon_Demo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/ishma/Project_Panopticon_Demo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractive': fallback shader 'Hidden/Shader Graph/FallbackError' not found
@@ -1304,189 +788,33 @@ Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.606 seconds
+- Completed reload, in  0.711 seconds
 Domain Reload Profiling:
-	ReloadAssembly (606ms)
-		BeginReloadAssembly (79ms)
+	ReloadAssembly (712ms)
+		BeginReloadAssembly (85ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (479ms)
-			LoadAssemblies (34ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (152ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (209ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (41ms)
-				ProcessInitializeOnLoadAttributes (111ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Failed to load shader (instanceID 474, GUID 0f4122b9a743b744abe2fb6a0a88868b)
-Failed to load shader (instanceID 548, GUID a16365e8c873daa4c94919438490b905)
-Failed to load shader (instanceID 458, GUID 5caf62d8bd7c44596ace77ef9eb8ea31)
-Failed to load shader (instanceID 550, GUID 9c442dc870b456e48b615cd8add0e9ef)
-Failed to load shader (instanceID 552, GUID 77cfa04f893eb8745b6a454a3d51b43c)
-Failed to load shader (instanceID 554, GUID 0d0f817524897904ba47a6a1d55e7668)
-Failed to load shader (instanceID 480, GUID 69c1f799e772cb6438f56c23efccb782)
-Failed to load shader (instanceID 460, GUID da07703fcc09f8d4799221050659bd55)
-Failed to load shader (instanceID 556, GUID 2df96b66b5510f94b98df2ac6f926ef4)
-Failed to load shader (instanceID 456, GUID 50b406436c6214c49aaaa6011b71dde8)
-Failed to load shader (instanceID 558, GUID 4386e57b23a56004c93e1d57d2bbcb4f)
-Failed to load shader (instanceID 560, GUID 95e15a77195eb574ab82aaac18b1c796)
-Shader 'SyntyStudios/Prototype_Global_URP': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'SyntyStudios/Prototype_Glass_Object_URP': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4597 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (434.0 KB). Loaded Objects now: 5349.
-Memory consumption went from 215.4 MB to 215.0 MB.
-Total: 2.673500 ms (FindLiveObjects: 0.175041 ms CreateObjectMapping: 0.078875 ms MarkObjects: 2.255375 ms  DeleteObjects: 0.163500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001985 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x292beb000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/ishma/Project_Panopticon_Demo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/ishma/Project_Panopticon_Demo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractive': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveTransparent': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveMasked': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Shader Graphs/Decal': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.619 seconds
-Domain Reload Profiling:
-	ReloadAssembly (620ms)
-		BeginReloadAssembly (79ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (492ms)
-			LoadAssemblies (34ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (150ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (226ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (43ms)
-				ProcessInitializeOnLoadAttributes (121ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Failed to load shader (instanceID 474, GUID 0f4122b9a743b744abe2fb6a0a88868b)
-Failed to load shader (instanceID 548, GUID a16365e8c873daa4c94919438490b905)
-Failed to load shader (instanceID 458, GUID 5caf62d8bd7c44596ace77ef9eb8ea31)
-Failed to load shader (instanceID 550, GUID 9c442dc870b456e48b615cd8add0e9ef)
-Failed to load shader (instanceID 552, GUID 77cfa04f893eb8745b6a454a3d51b43c)
-Failed to load shader (instanceID 554, GUID 0d0f817524897904ba47a6a1d55e7668)
-Failed to load shader (instanceID 480, GUID 69c1f799e772cb6438f56c23efccb782)
-Failed to load shader (instanceID 460, GUID da07703fcc09f8d4799221050659bd55)
-Failed to load shader (instanceID 556, GUID 2df96b66b5510f94b98df2ac6f926ef4)
-Failed to load shader (instanceID 456, GUID 50b406436c6214c49aaaa6011b71dde8)
-Failed to load shader (instanceID 558, GUID 4386e57b23a56004c93e1d57d2bbcb4f)
-Failed to load shader (instanceID 560, GUID 95e15a77195eb574ab82aaac18b1c796)
-Shader 'SyntyStudios/Prototype_Global_URP': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'SyntyStudios/Prototype_Glass_Object_URP': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Refreshing native plugins compatible for Editor in 1.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4597 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (433.9 KB). Loaded Objects now: 5352.
-Memory consumption went from 215.4 MB to 215.0 MB.
-Total: 2.638667 ms (FindLiveObjects: 0.162708 ms CreateObjectMapping: 0.063542 ms MarkObjects: 2.193208 ms  DeleteObjects: 0.217708 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001772 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x292beb000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/ishma/Project_Panopticon_Demo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/ishma/Project_Panopticon_Demo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractive': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveTransparent': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveMasked': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Shader Graphs/Decal': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.607 seconds
-Domain Reload Profiling:
-	ReloadAssembly (608ms)
-		BeginReloadAssembly (83ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (473ms)
+		EndReloadAssembly (568ms)
 			LoadAssemblies (39ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (151ms)
+			SetupTypeCache (194ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (205ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (238ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (41ms)
-				ProcessInitializeOnLoadAttributes (108ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 Failed to load shader (instanceID 474, GUID 0f4122b9a743b744abe2fb6a0a88868b)
 Failed to load shader (instanceID 548, GUID a16365e8c873daa4c94919438490b905)
@@ -1502,12 +830,12 @@ Failed to load shader (instanceID 558, GUID 4386e57b23a56004c93e1d57d2bbcb4f)
 Failed to load shader (instanceID 560, GUID 95e15a77195eb574ab82aaac18b1c796)
 Shader 'SyntyStudios/Prototype_Global_URP': fallback shader 'Hidden/Shader Graph/FallbackError' not found
 Shader 'SyntyStudios/Prototype_Glass_Object_URP': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4597 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (434.1 KB). Loaded Objects now: 5355.
-Memory consumption went from 215.4 MB to 215.0 MB.
-Total: 2.350708 ms (FindLiveObjects: 0.158667 ms CreateObjectMapping: 0.065625 ms MarkObjects: 1.989167 ms  DeleteObjects: 0.136583 ms)
+Unloading 23 unused Assets / (434.6 KB). Loaded Objects now: 5259.
+Memory consumption went from 185.8 MB to 185.4 MB.
+Total: 2.360125 ms (FindLiveObjects: 0.142875 ms CreateObjectMapping: 0.062500 ms MarkObjects: 2.005000 ms  DeleteObjects: 0.148959 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1521,188 +849,491 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1840.998879 seconds.
-  path: Assets/PolygonTown/Models/Props/SM_Prop_Airvent_02.fbx
-  artifactKey: Guid(8f35cb85c5edace41834e3a200d8ec7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/Props/SM_Prop_Airvent_02.fbx using Guid(8f35cb85c5edace41834e3a200d8ec7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractive': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+  Time since last request: 458.068411 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Deckchair_04.prefab
+  artifactKey: Guid(bdbddbcd8e910754084a67262944d377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Deckchair_04.prefab using Guid(bdbddbcd8e910754084a67262944d377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractive': fallback shader 'Hidden/Shader Graph/FallbackError' not found
 Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveTransparent': fallback shader 'Hidden/Shader Graph/FallbackError' not found
 Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveMasked': fallback shader 'Hidden/Shader Graph/FallbackError' not found
 Shader 'Shader Graphs/Decal': fallback shader 'Hidden/Shader Graph/FallbackError' not found
- -> (artifact id: 'cf51984e6140ea74991c20479e01bbe2') in 0.150529 seconds 
+ -> (artifact id: '8c14e66c3435847d43a29ca6dd9954aa') in 0.141568 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/PolygonTown/Models/Props/SM_Prop_Art_06.fbx
-  artifactKey: Guid(b7d18865f5fe7664baadf7bc50ba869b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/Props/SM_Prop_Art_06.fbx using Guid(b7d18865f5fe7664baadf7bc50ba869b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50fe393bdefcb8d785a245e071c9b293') in 0.014534 seconds 
+  Time since last request: 0.878724 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Desk_02.prefab
+  artifactKey: Guid(f0afe06e70b3fdd47b886365752e693c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Desk_02.prefab using Guid(f0afe06e70b3fdd47b886365752e693c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '068f64f9dbde8e927b0f68cf589af870') in 0.020950 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/PolygonTown/Models/Props/SM_Prop_Art_Standing_01.fbx
-  artifactKey: Guid(7f2c36ecc986b194d803de8f3a6f30e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/Props/SM_Prop_Art_Standing_01.fbx using Guid(7f2c36ecc986b194d803de8f3a6f30e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec1470f535a48240618a06332a6a53cf') in 0.011751 seconds 
+  Time since last request: 0.000066 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_DiningChair_01.prefab
+  artifactKey: Guid(4e08f084885c1ed41b9f205ca0e25fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_DiningChair_01.prefab using Guid(4e08f084885c1ed41b9f205ca0e25fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8d80c95004ca9e75518279a3e7859f') in 0.015432 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/PolygonTown/Models/Props/SM_Prop_Art_09.fbx
-  artifactKey: Guid(b91ebde78a4609a4c8bb4a5e120a58be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/Props/SM_Prop_Art_09.fbx using Guid(b91ebde78a4609a4c8bb4a5e120a58be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef083a8f3c1d23b5fd222526f019639f') in 0.011358 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/PolygonTown/Models/Props/SM_Prop_Art_01.fbx
-  artifactKey: Guid(58159faef1cd3ba4ea2a5de6ccfd77bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/Props/SM_Prop_Art_01.fbx using Guid(58159faef1cd3ba4ea2a5de6ccfd77bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90728573d98cf603ad460757553f10da') in 0.010863 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/PolygonTown/Models/Props/SM_Prop_BathroomSink_01.fbx
-  artifactKey: Guid(992c99ee4fd2ceb4f9048ffab80af916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/Props/SM_Prop_BathroomSink_01.fbx using Guid(992c99ee4fd2ceb4f9048ffab80af916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe10ee0a1cb0fb5307ceeee66d474bf3') in 0.011236 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/PolygonTown/Models/Props/SM_Prop_BathroomRug_02.fbx
-  artifactKey: Guid(76ef1399ab4d4004eb55bed4be1028b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/Props/SM_Prop_BathroomRug_02.fbx using Guid(76ef1399ab4d4004eb55bed4be1028b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c253f48a2d7e312935c7bfb9aeeb9b0f') in 0.009412 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/PolygonTown/Models/Props/SM_Prop_BabyCot_01.fbx
-  artifactKey: Guid(3d4c3063af08ac6408ea4360e813d241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/Props/SM_Prop_BabyCot_01.fbx using Guid(3d4c3063af08ac6408ea4360e813d241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d143432b57a7bde93cbff771db894ee') in 0.029337 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/PolygonTown/Models/Props/SM_Prop_Art_04.fbx
-  artifactKey: Guid(064d84811cf49e84bbe27722b1971514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/Props/SM_Prop_Art_04.fbx using Guid(064d84811cf49e84bbe27722b1971514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec3f8bfe03c1ff55aaecffd00ed6f71') in 0.010449 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/PolygonTown/Models/Props/SM_Prop_Art_Standing_03.fbx
-  artifactKey: Guid(fabb9e341e957484e927f3a1539d48e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/Props/SM_Prop_Art_Standing_03.fbx using Guid(fabb9e341e957484e927f3a1539d48e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f14aa5a09de0b36c49abd3b045aa71') in 0.009862 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/PolygonTown/Models/Props/SM_Prop_Art_07.fbx
-  artifactKey: Guid(f68e0fcdf96e9ce419b102e3d6c6a89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/Props/SM_Prop_Art_07.fbx using Guid(f68e0fcdf96e9ce419b102e3d6c6a89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea9a58132130ce4784e569bcabd2a80') in 0.009784 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/PolygonTown/Models/Props/SM_Prop_Art_05.fbx
-  artifactKey: Guid(3bb05faffa65a794bb88a4d85a52526b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/Props/SM_Prop_Art_05.fbx using Guid(3bb05faffa65a794bb88a4d85a52526b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '405718c5ef0fc658ce60a5e21cb9caef') in 0.010089 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/PolygonTown/Models/Props/SM_Prop_Barrel_01.fbx
-  artifactKey: Guid(c512d8784e3e7a54b8791c761ec99cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/Props/SM_Prop_Barrel_01.fbx using Guid(c512d8784e3e7a54b8791c761ec99cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6ffb5bed984dcd0c4af9f02b0cfb13') in 0.014497 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/PolygonTown/Models/Props/SM_Prop_AirVent_03.fbx
-  artifactKey: Guid(48eafae4b9a70f54fb54898c0983940d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/Props/SM_Prop_AirVent_03.fbx using Guid(48eafae4b9a70f54fb54898c0983940d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9270c96d6ff9ebe2e1d8ddcc0f4aaa') in 0.012583 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.868402 seconds.
-  path: Assets/PolygonTown/Models/Props/SM_Prop_Bed_Bunk_01.fbx
-  artifactKey: Guid(a61166e2cf4977d41b33d48d239e13d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/Props/SM_Prop_Bed_Bunk_01.fbx using Guid(a61166e2cf4977d41b33d48d239e13d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f003d9405fc1ce7a62d71c6dbb91f0') in 0.011944 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/PolygonTown/Models/Props/SM_Prop_Bed_Double_02.fbx
-  artifactKey: Guid(720c79908742df34392c9347873be7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/Props/SM_Prop_Bed_Double_02.fbx using Guid(720c79908742df34392c9347873be7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13745631345e1708996d8b998e207d25') in 0.011404 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/PolygonTown/Models/Props/SM_Prop_BirdBath_01.fbx
-  artifactKey: Guid(7edadaa6058154c4bab95cf6612290c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/Props/SM_Prop_BirdBath_01.fbx using Guid(7edadaa6058154c4bab95cf6612290c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135eaaf8eb17c71c9098ba90c1524b0a') in 0.014756 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/PolygonTown/Models/Props/SM_Prop_BedsideTable_01.fbx
-  artifactKey: Guid(9ec0478f55d747c43b0537521c4ae66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/Props/SM_Prop_BedsideTable_01.fbx using Guid(9ec0478f55d747c43b0537521c4ae66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d7652fa5a5f11e69c1fc64b9ca19d10') in 0.019379 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/PolygonTown/Models/Props/SM_Prop_Bed_Double_03.fbx
-  artifactKey: Guid(cec2dbee42a2fc44d99d9589824345a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/Props/SM_Prop_Bed_Double_03.fbx using Guid(cec2dbee42a2fc44d99d9589824345a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca6f66958bb2e9062b69007555611c4') in 0.010480 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/PolygonTown/Models/Props/SM_Prop_Book_Group_01.fbx
-  artifactKey: Guid(64c307c88b8a5ff4c9ac1498cf723f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/Props/SM_Prop_Book_Group_01.fbx using Guid(64c307c88b8a5ff4c9ac1498cf723f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7bdf3e9e5c3cf324a9374722a9316b') in 0.008903 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/PolygonTown/Models/Props/SM_Prop_Book_Group_02.fbx
-  artifactKey: Guid(d37d905b46bbe834eaacffa1ed9fb18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/Props/SM_Prop_Book_Group_02.fbx using Guid(d37d905b46bbe834eaacffa1ed9fb18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8933b8452e008fcd7f91f0a76332fa9e') in 0.010055 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/PolygonTown/Models/Props/SM_Prop_Bed_Single_02.fbx
-  artifactKey: Guid(15a1c419109fdff4e88fb51e64770aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/Props/SM_Prop_Bed_Single_02.fbx using Guid(15a1c419109fdff4e88fb51e64770aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29deb287ff9098db62d152a73fba368') in 0.010399 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.723802 seconds.
-  path: Assets/PolygonTown/Models/Generic/SM_Generic_Cloud_02.fbx
-  artifactKey: Guid(3d7f6e0bb5983e84bbf1ae7944f0cc7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/Generic/SM_Generic_Cloud_02.fbx using Guid(3d7f6e0bb5983e84bbf1ae7944f0cc7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee9884b5f467397c346b5645041ef9a') in 0.012664 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/PolygonTown/Models/Generic/SM_Generic_Ground_04.fbx
-  artifactKey: Guid(474b4a1b0e38a8a4590ff12d59bb678f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/Generic/SM_Generic_Ground_04.fbx using Guid(474b4a1b0e38a8a4590ff12d59bb678f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae1e2cf5cae67aa4517ab50039da177') in 0.012849 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/PolygonTown/Models/Generic/SM_Generic_Mountains_Grass_01.fbx
-  artifactKey: Guid(bd346f89c109f814b8d68452edd92816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/Generic/SM_Generic_Mountains_Grass_01.fbx using Guid(bd346f89c109f814b8d68452edd92816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '274eb15a7d6422aa5828c7422b9c016c') in 0.015970 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/PolygonTown/Models/Generic/SM_Generic_Mountains_Grass_02.fbx
-  artifactKey: Guid(4264373e5f824ac45a6c920e3ddf0eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/Generic/SM_Generic_Mountains_Grass_02.fbx using Guid(4264373e5f824ac45a6c920e3ddf0eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc1c83ded773e120621c2d11d500bcde') in 0.011142 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/PolygonTown/Models/Generic/SM_Generic_Ground_03.fbx
-  artifactKey: Guid(d7bd2f678e2d15f4fbd3ff7116182b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/Generic/SM_Generic_Ground_03.fbx using Guid(d7bd2f678e2d15f4fbd3ff7116182b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4bbe2865daff2b7ba70dc000ab197d') in 0.010501 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/PolygonTown/Models/Generic/SM_Generic_Small_Rocks_03.fbx
-  artifactKey: Guid(a619b83e160db1549b2b78a3d0dfae67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/Generic/SM_Generic_Small_Rocks_03.fbx using Guid(a619b83e160db1549b2b78a3d0dfae67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adde40abf5b65c25e05c53cd00e9ca2b') in 0.009360 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/PolygonTown/Models/Generic/SM_Generic_Small_Rocks_01.fbx
-  artifactKey: Guid(2023426550d166548b8cfe8afdedb8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/Generic/SM_Generic_Small_Rocks_01.fbx using Guid(2023426550d166548b8cfe8afdedb8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '684e693ad3a8a80d936facd59b35c471') in 0.009928 seconds 
+  Time since last request: 0.437860 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_DiningTable_01.prefab
+  artifactKey: Guid(3c06f761a4cedf24fa4139820c28c09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_DiningTable_01.prefab using Guid(3c06f761a4cedf24fa4139820c28c09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'addbb33029cbb4c6c04b990ee59bffb4') in 0.011852 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000060 seconds.
-  path: Assets/PolygonTown/Models/Generic/SM_Generic_Ground_Flat_01.fbx
-  artifactKey: Guid(01ab91dc58ebec745a3e6de7ac7c871b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonTown/Models/Generic/SM_Generic_Ground_Flat_01.fbx using Guid(01ab91dc58ebec745a3e6de7ac7c871b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8512321d96b4e887db0e585c8d1e37') in 0.012984 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Drawers_01.prefab
+  artifactKey: Guid(e33b22547c18f7e4da48af6a2da197a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Drawers_01.prefab using Guid(e33b22547c18f7e4da48af6a2da197a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd923513468eecc35924487ac039b247b') in 0.015396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.295439 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Dresser_01.prefab
+  artifactKey: Guid(50f517e667164e348b978e65ae4d8d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Dresser_01.prefab using Guid(50f517e667164e348b978e65ae4d8d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82775bcdb3cdf8f7f463d94119484e47') in 0.012946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Dresser_02.prefab
+  artifactKey: Guid(930840826661bc546b970fd1f3881072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Dresser_02.prefab using Guid(930840826661bc546b970fd1f3881072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a340a12b3885ce3d5e9dae731f51db76') in 0.014904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Dresser_02_Combined.prefab
+  artifactKey: Guid(b24eef010ce8b81449623f513a3273bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Dresser_02_Combined.prefab using Guid(b24eef010ce8b81449623f513a3273bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83491a2c8a21f0070b1fcc53020cc664') in 0.011119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Fireplace_01.prefab
+  artifactKey: Guid(2b5b0efe6488e764a939e7d66952022d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Fireplace_01.prefab using Guid(2b5b0efe6488e764a939e7d66952022d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1d27a6c02be2de0ff3b7d154735d30') in 0.011086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_DVDStack_02.prefab
+  artifactKey: Guid(5477fd809d93fd642b0e59c389e8cc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_DVDStack_02.prefab using Guid(5477fd809d93fd642b0e59c389e8cc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6205032f648806a5afbd2564cfebec11') in 0.011741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Fireplace_02.prefab
+  artifactKey: Guid(ed579151a6c09744dbbb8133f7ff9964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Fireplace_02.prefab using Guid(ed579151a6c09744dbbb8133f7ff9964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e4f184416c5c214c11d2f3a98e0160') in 0.013704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Flag_Wall_01.prefab
+  artifactKey: Guid(2e527ef26ea95ff4fbcf4e84c955a852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Flag_Wall_01.prefab using Guid(2e527ef26ea95ff4fbcf4e84c955a852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e855fb4fdd4bf154f960ba9c9686e05') in 0.011746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Flamingo_01.prefab
+  artifactKey: Guid(74c308e73e9630c4fa14863c0ae0671b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Flamingo_01.prefab using Guid(74c308e73e9630c4fa14863c0ae0671b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6001ce7e4fc088d4cb1521ef06b658c') in 0.012105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.569761 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Flowers_02.prefab
+  artifactKey: Guid(f6f5f7e1f4e3a784cb0d30b6382a0911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Flowers_02.prefab using Guid(f6f5f7e1f4e3a784cb0d30b6382a0911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e8690696c7ae2d0051a06492b4ba54') in 0.011855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_ForSaleSign_01.prefab
+  artifactKey: Guid(a0d9f48228016824d99828f2b9d7b393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_ForSaleSign_01.prefab using Guid(a0d9f48228016824d99828f2b9d7b393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e45603a92c90c57b88d0eb8b20dd6e2') in 0.016501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025931 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_FridgeDrinks_01.prefab
+  artifactKey: Guid(b20dc2476d1e8e4478b07c93277921d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_FridgeDrinks_01.prefab using Guid(b20dc2476d1e8e4478b07c93277921d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf31a57d8647ad25771b132ea106e2a9') in 0.557178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Jar_02.prefab
+  artifactKey: Guid(445c24e644dd0f44f8b1f2ca27fed2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Jar_02.prefab using Guid(445c24e644dd0f44f8b1f2ca27fed2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db3b60fb50b4f884ee05b2ea15302dd') in 0.016130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Keg_01.prefab
+  artifactKey: Guid(96e6dca7dd4de4240abda070520eb710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Keg_01.prefab using Guid(96e6dca7dd4de4240abda070520eb710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558036313c21cbaf860873fccb2ac384') in 0.015418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Kitchen_Counter_01.prefab
+  artifactKey: Guid(9b067ffd8944f8b49bfcbaa66d4b13b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Kitchen_Counter_01.prefab using Guid(9b067ffd8944f8b49bfcbaa66d4b13b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cdb4e1a6f17d2873ab0fc8034bc7418') in 0.011489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Lamp_01.prefab
+  artifactKey: Guid(d75df63a95f35384ab17add13dd7e3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Lamp_01.prefab using Guid(d75df63a95f35384ab17add13dd7e3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a798302f0d50eca540a6483569478da8') in 0.011647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Kitchen_CounterEnd_01.prefab
+  artifactKey: Guid(cd88d8b3ed09d204496f202ad2906500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Kitchen_CounterEnd_01.prefab using Guid(cd88d8b3ed09d204496f202ad2906500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf3dacb3941b7cf6eb58cf7bc63bd19') in 0.012072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_LampStanding_01.prefab
+  artifactKey: Guid(11ba1debff4c9694aa125f6b25481218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_LampStanding_01.prefab using Guid(11ba1debff4c9694aa125f6b25481218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655bd78edd6738faef6a9cbf0dab786f') in 0.011329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Ladder_01.prefab
+  artifactKey: Guid(eeb3e4ae305605547bcfc51dd455b6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Ladder_01.prefab using Guid(eeb3e4ae305605547bcfc51dd455b6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a7fc3479cb4fef9e1ebc2b0aba5ca7') in 0.011392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Kitchen_Counter_02.prefab
+  artifactKey: Guid(557244deb7e8d444197b5b6fd8e650a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Kitchen_Counter_02.prefab using Guid(557244deb7e8d444197b5b6fd8e650a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01828364879dcf78755cebab2c00cd6e') in 0.015042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Hoop_Child_01.prefab
+  artifactKey: Guid(8aacc005608706b42b16781dac94d1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Hoop_Child_01.prefab using Guid(8aacc005608706b42b16781dac94d1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8fa6d7e3343ee1e3796d52939194b6') in 0.012514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Heater_02.prefab
+  artifactKey: Guid(fc1ecd1aee30d71458fbfa0b3609152f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Heater_02.prefab using Guid(fc1ecd1aee30d71458fbfa0b3609152f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7707a7cbc847a1cf36846322930c9f2a') in 0.011516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Kitchen_Fridge_01.prefab
+  artifactKey: Guid(b5e20824836b4394c83b31ce0f6bd9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Kitchen_Fridge_01.prefab using Guid(b5e20824836b4394c83b31ce0f6bd9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3cf4e9e6d54cf771d0e20eee916ee35') in 0.011574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Jar_01.prefab
+  artifactKey: Guid(95866a10ee7ef514882fef25053e3d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Jar_01.prefab using Guid(95866a10ee7ef514882fef25053e3d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a124f71e789bdfa577cb382594aa9b') in 0.011574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Kitchen_CounterWashing_01.prefab
+  artifactKey: Guid(ab5a485b8b574464cb654abad966fd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Kitchen_CounterWashing_01.prefab using Guid(ab5a485b8b574464cb654abad966fd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1617207a13a6aae7dad8452190fcd1fb') in 0.012944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Game_Console_03.prefab
+  artifactKey: Guid(11e636a2c1f6d4442a9192bf55f0580c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Game_Console_03.prefab using Guid(11e636a2c1f6d4442a9192bf55f0580c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9658ca90935bedf0eb4bebb55842be0b') in 0.011228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Game_Controller_01.prefab
+  artifactKey: Guid(b9c595d49acc87d479c901113bcdd007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Game_Controller_01.prefab using Guid(b9c595d49acc87d479c901113bcdd007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4dc6bab17f5e77a532495e20559994') in 0.012222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Hoop_01.prefab
+  artifactKey: Guid(0bfc0424e35445d4a99c355f36152521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Hoop_01.prefab using Guid(0bfc0424e35445d4a99c355f36152521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ebe8dd58bf3693be9d6ce87894219c') in 0.011351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Kitchen_CounterSink_01.prefab
+  artifactKey: Guid(3357bbf065512654ab1e8d6d9ab58201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Kitchen_CounterSink_01.prefab using Guid(3357bbf065512654ab1e8d6d9ab58201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd453640b6da9a4c0411cff0ea753e9') in 0.013705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_LampStanding_02.prefab
+  artifactKey: Guid(ec506e4a58168e548bd23c92bc59a3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_LampStanding_02.prefab using Guid(ec506e4a58168e548bd23c92bc59a3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ee91ae504c8c597688fcfcd868bf707') in 0.012661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Laundry_Pile_01.prefab
+  artifactKey: Guid(799e78eae4addb34697b4c40ebe5eea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Laundry_Pile_01.prefab using Guid(799e78eae4addb34697b4c40ebe5eea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c40e5ea7c0dc1927c72a7518b4ebd1') in 0.012745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.839502 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Laundry_WasherTop_01.prefab
+  artifactKey: Guid(1642f9c274f4d9a45ac583a0321ecf38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Laundry_WasherTop_01.prefab using Guid(1642f9c274f4d9a45ac583a0321ecf38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbeb5e19a930b62a32f2616c5625b6a5') in 0.025034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_LaundryBox_01.prefab
+  artifactKey: Guid(9fc0d1b39a015bc489aae32f2c0d8a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_LaundryBox_01.prefab using Guid(9fc0d1b39a015bc489aae32f2c0d8a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff3b9358bd20e355f2641252b021fad') in 0.016456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.347644 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_LetterBox_01.prefab
+  artifactKey: Guid(084d28d6af044e044b776a448e46c8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_LetterBox_01.prefab using Guid(084d28d6af044e044b776a448e46c8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70100d45356866b574b88efa6b7eec42') in 0.011901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Lightswitch_01.prefab
+  artifactKey: Guid(db889e970a8e879449db44f004cc97fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Lightswitch_01.prefab using Guid(db889e970a8e879449db44f004cc97fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af80db50d0dff4fea4279370fea1fc12') in 0.015752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036152 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Manhole_01.prefab
+  artifactKey: Guid(edae6a91f30e4104aa1305d5f595c682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Manhole_01.prefab using Guid(edae6a91f30e4104aa1305d5f595c682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa8252212af18634d7e0a3c30dcef35') in 0.012023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Mirror_01.prefab
+  artifactKey: Guid(971115d2dc679604dbd66cea5131a6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Mirror_01.prefab using Guid(971115d2dc679604dbd66cea5131a6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8e375f5ecd0ebcbf2ad7344cd84435') in 0.792863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.358878 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Pan_01.prefab
+  artifactKey: Guid(1a863b49e24bbf946a41ac5be6afc6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Pan_01.prefab using Guid(1a863b49e24bbf946a41ac5be6afc6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f5615e5ffb44473b15bae92235b26c') in 0.020457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.679321 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Piano_01.prefab
+  artifactKey: Guid(963a6d494430a824091f2a4e152fea8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Piano_01.prefab using Guid(963a6d494430a824091f2a4e152fea8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118352e143fb882b30550b92499a435b') in 0.021692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Playground_Roundabout_01.prefab
+  artifactKey: Guid(64960d3d1200a1e40bd9fa066810606a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Playground_Roundabout_01.prefab using Guid(64960d3d1200a1e40bd9fa066810606a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2033647e78d2829b7ad5b2fb7049a4') in 0.014479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Plant_02.prefab
+  artifactKey: Guid(290582de42edcee489d2cc5103bd4364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Plant_02.prefab using Guid(290582de42edcee489d2cc5103bd4364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48f06d9f5a1cc39c02b6a2fc71bd07d') in 0.012669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037448 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Playground_Table_01.prefab
+  artifactKey: Guid(b7921a346cc3b9d46b3b2a06f550b2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Playground_Table_01.prefab using Guid(b7921a346cc3b9d46b3b2a06f550b2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06de2216d7f916da7f27c82a14b0dc53') in 0.012640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.418424 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Pool_Float_Noodle_01.prefab
+  artifactKey: Guid(676a06a4e50b59346ae31e2439cf760f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Pool_Float_Noodle_01.prefab using Guid(676a06a4e50b59346ae31e2439cf760f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e4e2c4ef3c16d03a650e9b6cea7ae6') in 0.016352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027976 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Pool_Float_Ring_03.prefab
+  artifactKey: Guid(45894ac8f819c924cada460357b598cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Pool_Float_Ring_03.prefab using Guid(45894ac8f819c924cada460357b598cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da9538c520beba385a05db7a55820761') in 0.015599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029135 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Pool_Spa_01.prefab
+  artifactKey: Guid(4d0d13afd3ab95449ab84863e1d6edef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Pool_Spa_01.prefab using Guid(4d0d13afd3ab95449ab84863e1d6edef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '436afc92fa5585f9ce3a6f42ee9bfd83') in 0.013730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Pot_05.prefab
+  artifactKey: Guid(b92ec5b964ec2234db0f3de0a10bccca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Pot_05.prefab using Guid(b92ec5b964ec2234db0f3de0a10bccca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587aa7d249e44d5be926d9fdde58d800') in 0.013604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Pot_03.prefab
+  artifactKey: Guid(49d5cb8e645b0414eac1ccf1f15c5da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Pot_03.prefab using Guid(49d5cb8e645b0414eac1ccf1f15c5da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa2096db74dea5cc3f82eb4b7ce68f3') in 0.012341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.786867 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_PotPlant_03.prefab
+  artifactKey: Guid(db9229eb712339548b96bc3036e3f142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_PotPlant_03.prefab using Guid(db9229eb712339548b96bc3036e3f142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbacba6c5a5fd429565227c9b43112f6') in 0.018235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_PotPlant_Hanging_01.prefab
+  artifactKey: Guid(f6cb499f64e0d2c43b085feb29bd7599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_PotPlant_Hanging_01.prefab using Guid(f6cb499f64e0d2c43b085feb29bd7599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b494e384105e4579953f703c1d63b1') in 0.014885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007257 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_PowerPlug_01.prefab
+  artifactKey: Guid(f3133a084b9c6e04aadc72bef31ae6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_PowerPlug_01.prefab using Guid(f3133a084b9c6e04aadc72bef31ae6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f634af958193e3ec6b52af7c6c40c5') in 0.012247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.387990 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Propanel_02.prefab
+  artifactKey: Guid(b22ad20f98d13844d8b5be05b9130dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Propanel_02.prefab using Guid(b22ad20f98d13844d8b5be05b9130dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '427c9caf70749ee047c6269da882a920') in 0.021571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Rug_02.prefab
+  artifactKey: Guid(6e1e9c3becff45549bc7aaf478874b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Rug_02.prefab using Guid(6e1e9c3becff45549bc7aaf478874b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74393af7b871e9ad45154496caf2bee') in 0.014347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_RubbishBin_Small_01.prefab
+  artifactKey: Guid(d3192e0e9909c144c93200bbb1e25c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_RubbishBin_Small_01.prefab using Guid(d3192e0e9909c144c93200bbb1e25c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a06bffebae88f967d294877072feb6a') in 0.012385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003139 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_SatelliteDish_01.prefab
+  artifactKey: Guid(eec64481653f58e4ea00533afc5c9085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_SatelliteDish_01.prefab using Guid(eec64481653f58e4ea00533afc5c9085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f879a72c784747580fe9b1673a57d4') in 0.014983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Scales_01.prefab
+  artifactKey: Guid(3952d44d5501e9e4c9bffc6b957735a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Scales_01.prefab using Guid(3952d44d5501e9e4c9bffc6b957735a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2283c2a41d160cc7d9fae7595be4e897') in 0.010899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.451654 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Shelf_01_Combined.prefab
+  artifactKey: Guid(4ac06f5676701a24eae920c95c626f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Shelf_01_Combined.prefab using Guid(4ac06f5676701a24eae920c95c626f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b855d5ae91bb412e4fa273f1903592') in 0.016460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023154 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_ShopFridge_02.prefab
+  artifactKey: Guid(6e6e25bf9896f8c48a21ba71d77eae4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_ShopFridge_02.prefab using Guid(6e6e25bf9896f8c48a21ba71d77eae4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc68ec3d2d1719a15b620978425bb18') in 0.017132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Shower_01.prefab
+  artifactKey: Guid(205f6d1a21bf5de41ba7330db62f9b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Shower_01.prefab using Guid(205f6d1a21bf5de41ba7330db62f9b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2eeb318df7c5f0348b9fa5ee9e76e0d') in 0.014103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_SolarPanel_01.prefab
+  artifactKey: Guid(de859cfc915278e4da8c430af8390613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_SolarPanel_01.prefab using Guid(de859cfc915278e4da8c430af8390613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7aacfbea5453144be4749c54bc9a236') in 0.010896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_SlushieMachine_01.prefab
+  artifactKey: Guid(e6202f60671b5b541be90a032d4f3536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_SlushieMachine_01.prefab using Guid(e6202f60671b5b541be90a032d4f3536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7d0351a91a939cde06f0efe1dbfc64') in 0.011107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Sign_01.prefab
+  artifactKey: Guid(dd7fe28bafd178b40a5dab0cad7197af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Sign_01.prefab using Guid(dd7fe28bafd178b40a5dab0cad7197af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bfbe973796665611dd360f654739ae2') in 0.012523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.499285 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Stereo_Speaker_Tall_01.prefab
+  artifactKey: Guid(4f2ea4d861082654facaa179b86c503a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Stereo_Speaker_Tall_01.prefab using Guid(4f2ea4d861082654facaa179b86c503a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae13bd8e30ae7591fc928e7566f3510f') in 0.020935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_StreetSign_04.prefab
+  artifactKey: Guid(dac48936d40576e46a660bc06a7d9d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_StreetSign_04.prefab using Guid(dac48936d40576e46a660bc06a7d9d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ab6d50a1264c6f9a9321b9ac5a8025') in 0.012921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_StreetSign_05.prefab
+  artifactKey: Guid(67940c1de25979a42acb3a326f8c90a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_StreetSign_05.prefab using Guid(67940c1de25979a42acb3a326f8c90a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb076cd3d8e8e4cc64e68d493be967fd') in 0.013217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Television_Flat_01.prefab
+  artifactKey: Guid(8d10ac7344d281a4688d5b5cea6b576a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Television_Flat_01.prefab using Guid(8d10ac7344d281a4688d5b5cea6b576a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fdfe8182250878ed8537675c1231d02') in 0.013871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Television_DVD_01.prefab
+  artifactKey: Guid(96f78066a2089264085ad3502b345555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Television_DVD_01.prefab using Guid(96f78066a2089264085ad3502b345555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5736266730f42e6e0248e192e5249d18') in 0.012832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000753 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Television_Old_01.prefab
+  artifactKey: Guid(17dd3b0ea61a9784dad6e4a779aa2033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Television_Old_01.prefab using Guid(17dd3b0ea61a9784dad6e4a779aa2033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e49ddb6c6c3723d75ec2513245e6254') in 0.018909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Toaster_01.prefab
+  artifactKey: Guid(916703d173711834685fea011a20cd4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Toaster_01.prefab using Guid(916703d173711834685fea011a20cd4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a0067693f950d8ef491c969da5640d') in 0.011477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_ToolBoard_01.prefab
+  artifactKey: Guid(b01d84b43ef0b244c848e77e8541f767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_ToolBoard_01.prefab using Guid(b01d84b43ef0b244c848e77e8541f767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde41f1ffabe4917c43a8d955145588a') in 0.011275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.875625 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_TowelRack_01.prefab
+  artifactKey: Guid(3b9ee35c55662a541ac951fe3f851718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_TowelRack_01.prefab using Guid(3b9ee35c55662a541ac951fe3f851718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd924a855b31adab3e0d0a1be50f42a40') in 0.016682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.044078 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_ToyTrain_01.prefab
+  artifactKey: Guid(026878404178b344c96052daf649d6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_ToyTrain_01.prefab using Guid(026878404178b344c96052daf649d6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3634a3ae2d11ee270af4f21fa3f5c68') in 0.011447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.398248 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_TVCabinet_01_Combined.prefab
+  artifactKey: Guid(697814506425e3e418a7340f3fb537ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_TVCabinet_01_Combined.prefab using Guid(697814506425e3e418a7340f3fb537ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad5a9d3ae0d765f0a421604ec060ef8') in 0.014803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_TVCabinet_02_Combined.prefab
+  artifactKey: Guid(2fa25f3c6959fad49abeb219f3db479a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_TVCabinet_02_Combined.prefab using Guid(2fa25f3c6959fad49abeb219f3db479a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd937712a489a78357577af268ba70564') in 0.016191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.960432 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Wardrobe_01.prefab
+  artifactKey: Guid(91b27f08ff87e3d4b9cde07bd52adf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Wardrobe_01.prefab using Guid(91b27f08ff87e3d4b9cde07bd52adf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2bad44040c1fb79caeb6b5f07f35d53') in 0.016234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.068114 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_WashingLine_02.prefab
+  artifactKey: Guid(b1d03d07c11da1d4496bd86fde6c6e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_WashingLine_02.prefab using Guid(b1d03d07c11da1d4496bd86fde6c6e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d38a2ae95f964204883fecfcb88b942') in 0.011543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_WashingLine_05.prefab
+  artifactKey: Guid(6fe652698e927704da6ba06aa91f37bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_WashingLine_05.prefab using Guid(6fe652698e927704da6ba06aa91f37bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83de899a4e171201ad53e82e5ae4d2c4') in 0.012584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.365336 seconds.
+  path: Assets/PolygonTown/Prefabs/Props/SM_Prop_Workbench_01.prefab
+  artifactKey: Guid(249878c2e1e9fd747997b4c719727f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Prefabs/Props/SM_Prop_Workbench_01.prefab using Guid(249878c2e1e9fd747997b4c719727f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a28ec51cdea1be667ba0e8212372b960') in 0.022531 seconds 
