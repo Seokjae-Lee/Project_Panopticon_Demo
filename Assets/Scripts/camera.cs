@@ -2,17 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+
 public class camera : MonoBehaviour
 {
     public GameObject mainCam;
     public float rotSpeed; // 45
     public float verSpeed;
+    public float zoomSpeed;
+    public float zoomDuration;
     public float duration; // 1
     public float cellHeight; // 5.1
-
+    public float zoomRate; // 1
 
     bool isRotating = false;
     bool isLifting = false;
+    bool isZoomingIn = false;
+    bool isZoomingOut = false;
+    bool zoomIn = false;
 
     float time;
     float prevAngle;
@@ -21,6 +28,18 @@ public class camera : MonoBehaviour
     int hordir;
     int verdir;
 
+    int currX = 1;
+    int currY = 0;
+    int nextX = 1;
+    int nextY = 0;
+    int[,] map = new int[4,8]
+    {
+        {0,0,0,0,0,0,0,0},
+        {1,0,0,0,1,0,1,0},
+        {0,1,0,0,0,1,0,1},
+        {0,0,1,0,0,0,1,0}
+    };
+
     void Start()
     {
         
@@ -28,8 +47,49 @@ public class camera : MonoBehaviour
 
     void Update()
     {
-        // 나중가서 조건 추가
-        if (true)
+        if (Input.GetKey(KeyCode.E) && map[currX, currY] == 1 && !isRotating && !isLifting && !isZoomingIn && !isZoomingOut)
+        {
+            Debug.Log("E PRESSED");
+            
+            if (zoomIn) isZoomingOut = true;
+            else isZoomingIn = true;
+
+            prevPos = mainCam.transform.position;
+            time = zoomDuration;
+            
+        }
+
+        if (isZoomingIn)
+        {
+            time -= Time.deltaTime;
+            if (time > 0.0f)
+            {
+                Vector3 movement = new Vector3(0, 0, 1) * zoomSpeed * Time.deltaTime;
+                mainCam.transform.Translate(movement);
+            }
+            else
+            {
+                isZoomingIn = false;
+                mainCam.transform.position = prevPos + mainCam.transform.localRotation * Vector3.forward * zoomRate;
+                zoomIn = true;
+            }
+        }
+        else if (isZoomingOut)
+        {
+            time -= Time.deltaTime;
+            if (time > 0.0f)
+            {
+                Vector3 movement = new Vector3(0, 0, 1) * zoomSpeed * Time.deltaTime;
+                mainCam.transform.Translate(-movement);
+            }
+            else
+            {
+                isZoomingOut = false;
+                mainCam.transform.position = prevPos - mainCam.transform.localRotation * Vector3.forward * zoomRate;
+                zoomIn = false;
+            }
+        }
+        else if (!zoomIn)
         {
             if (isLifting)
             {
@@ -56,12 +116,16 @@ public class camera : MonoBehaviour
                 {
                     isRotating = false;
                     // mainCam.transform.rotation = Quaternion.Euler(0, prevY + 45 * dir, 0);
-                    mainCam.transform.eulerAngles =  new Vector3(0, prevAngle + 45 * hordir, 0);
+                    mainCam.transform.eulerAngles = new Vector3(0, prevAngle + 45 * hordir, 0);
                 }
             }
             else
             {
-                hordir = (int) Input.GetAxisRaw("Horizontal");
+                hordir = (int)Input.GetAxisRaw("Horizontal");
+                nextY = currY + hordir;
+                nextY = nextY > 7 ? 0 : nextY;
+                nextY = nextY < 0 ? 7 : nextY;
+
                 prevAngle = mainCam.transform.rotation.eulerAngles.y;
                 if (hordir != 0)
                 {
@@ -72,6 +136,18 @@ public class camera : MonoBehaviour
 
                 //수직이동 상태 체양
                 verdir = (int)Input.GetAxisRaw("Vertical");
+                nextX = currX + verdir;
+                if (nextX > 3)
+                {
+                    nextX = 3;
+                    verdir = 0;
+                }
+                else if (nextX < 0)
+                {
+                    nextX = 0;
+                    verdir = 0;
+                }
+
                 prevPos = mainCam.transform.position;
                 if (verdir != 0)
                 {
@@ -79,6 +155,8 @@ public class camera : MonoBehaviour
                     time = duration;
                 }
 
+                currX = nextX;
+                currY = nextY;
             }
         }
     }

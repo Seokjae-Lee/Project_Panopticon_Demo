@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.029087227, g: 0.029897584, b: 0.02989665, a: 1}
+  m_IndirectSpecularColor: {r: 0.029087335, g: 0.0298977, b: 0.029896773, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1799,8 +1799,11 @@ MonoBehaviour:
   mainCam: {fileID: 671013930}
   rotSpeed: 360
   verSpeed: 40.8
+  zoomSpeed: 2
+  zoomDuration: 1
   duration: 0.125
   cellHeight: 5.1
+  zoomRate: 2
 --- !u!1001 &1116831382
 PrefabInstance:
   m_ObjectHideFlags: 0
