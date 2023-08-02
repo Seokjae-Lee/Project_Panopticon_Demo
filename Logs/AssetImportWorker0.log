@@ -15,7 +15,7 @@ C:/Users/gltp5/Project_Panopticon_Demo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55374
+49241
 Successfully changed project path to: C:/Users/gltp5/Project_Panopticon_Demo
 C:/Users/gltp5/Project_Panopticon_Demo
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/gltp5/Project_Panopticon_Demo
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4976] Host "[IP] 192.168.45.11 [Port] 0 [Flags] 2 [Guid] 963259460 [EditorId] 963259460 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K46LT9I) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [4416] Host "[IP] 192.168.45.11 [Port] 0 [Flags] 2 [Guid] 4044016084 [EditorId] 4044016084 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K46LT9I) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4976] Host "[IP] 192.168.45.11 [Port] 0 [Flags] 2 [Guid] 963259460 [EditorId] 963259460 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K46LT9I) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [4416] Host "[IP] 192.168.45.11 [Port] 0 [Flags] 2 [Guid] 4044016084 [EditorId] 4044016084 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K46LT9I) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 89.01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 82.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.22f1 (b6c551784ba3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
@@ -69,54 +69,54 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007834 seconds.
+Registered in 0.008474 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 180 ms
+Android Extension - Scanning For ADB Devices 195 ms
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 84.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 82.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.688 seconds
+- Completed reload, in  0.696 seconds
 Domain Reload Profiling:
-	ReloadAssembly (688ms)
-		BeginReloadAssembly (61ms)
+	ReloadAssembly (696ms)
+		BeginReloadAssembly (67ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (548ms)
-			LoadAssemblies (60ms)
+		EndReloadAssembly (553ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (73ms)
+			SetupTypeCache (72ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (16ms)
-			SetupLoadedEditorAssemblies (421ms)
+			RebuildScriptCaches (17ms)
+			SetupLoadedEditorAssemblies (425ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (242ms)
+				InitializePlatformSupportModulesInManaged (251ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (85ms)
+				RefreshPlugins (83ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (61ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
+				ProcessInitializeOnLoadAttributes (59ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008531 seconds.
+Registered in 0.006879 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\gltp5\Project_Panopticon_Demo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\gltp5\Project_Panopticon_Demo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -124,36 +124,36 @@ Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 82.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 82.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.990 seconds
+- Completed reload, in  1.013 seconds
 Domain Reload Profiling:
-	ReloadAssembly (991ms)
-		BeginReloadAssembly (85ms)
+	ReloadAssembly (1013ms)
+		BeginReloadAssembly (88ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (826ms)
-			LoadAssemblies (68ms)
+		EndReloadAssembly (844ms)
+			LoadAssemblies (73ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (174ms)
+			SetupTypeCache (171ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (525ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (528ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (21ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (83ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (301ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (82ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (293ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -172,12 +172,12 @@ Failed to load shader (instanceID 560, GUID 95e15a77195eb574ab82aaac18b1c796)
 Shader 'SyntyStudios/Prototype_Global_URP': fallback shader 'Hidden/Shader Graph/FallbackError' not found
 Shader 'SyntyStudios/Prototype_Glass_Object_URP': fallback shader 'Hidden/Shader Graph/FallbackError' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4708 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 30 unused Assets / (500.1 KB). Loaded Objects now: 5172.
 Memory consumption went from 191.9 MB to 191.4 MB.
-Total: 3.280600 ms (FindLiveObjects: 0.242000 ms CreateObjectMapping: 0.170200 ms MarkObjects: 2.682100 ms  DeleteObjects: 0.185500 ms)
+Total: 3.323700 ms (FindLiveObjects: 0.295500 ms CreateObjectMapping: 0.123100 ms MarkObjects: 2.718500 ms  DeleteObjects: 0.185900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -191,37 +191,31 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 71061.005527 seconds.
-  path: Assets/Scenes/Panopticon_Demo_Ver.2.unity
-  artifactKey: Guid(52d233ec4719995499379cc3bba58939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Panopticon_Demo_Ver.2.unity using Guid(52d233ec4719995499379cc3bba58939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b1c887dd70a94506a8578aa2547a24') in 0.015457 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
+  Time since last request: 569671.850932 seconds.
   path: Assets/Scenes/Panopticon_Demo 1.unity
   artifactKey: Guid(715297677d3d64194ac486677ec169b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Panopticon_Demo 1.unity using Guid(715297677d3d64194ac486677ec169b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7798479ba6e0b8dc200d65c979baa96') in 0.008836 seconds 
+Start importing Assets/Scenes/Panopticon_Demo 1.unity using Guid(715297677d3d64194ac486677ec169b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56d5f9edb3909c44ba1d18cb9ac2259') in 0.014947 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.534788 seconds.
-  path: Assets/Scenes/PanopticonCopy.unity
+  Time since last request: 24.283855 seconds.
+  path: Assets/Scenes/PanopticonCopy(Discard).unity
   artifactKey: Guid(041695265b41678439ffcc6af8b7cb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/PanopticonCopy.unity using Guid(041695265b41678439ffcc6af8b7cb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b66be192a6d38a2fbe791be412e207') in 0.008514 seconds 
+Start importing Assets/Scenes/PanopticonCopy(Discard).unity using Guid(041695265b41678439ffcc6af8b7cb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f234ab4b702d3f6c1dc4f36f633c8d8') in 0.009331 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.966155 seconds.
-  path: Assets/Scenes/Sample.unity
-  artifactKey: Guid(6d0c15b7edb5ceb4dad840a2afcd2a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sample.unity using Guid(6d0c15b7edb5ceb4dad840a2afcd2a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580fd0107cb41fdeb85de4c89cd7a0b5') in 0.007899 seconds 
+  Time since last request: 36.036555 seconds.
+  path: Assets/Prefabs/Demo_1
+  artifactKey: Guid(967a14e46256fa848af4987cd7604ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Demo_1 using Guid(967a14e46256fa848af4987cd7604ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c51d23dab7a316fad3163d1bfa6634') in 0.008515 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.906020 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b773e12776492cc2c291c4c98904b7b') in 0.007694 seconds 
+  Time since last request: 10.830163 seconds.
+  path: Assets/Prefabs/Demo_2
+  artifactKey: Guid(f7153ca1139fcd542bc43e73637f9495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Demo_2 using Guid(f7153ca1139fcd542bc43e73637f9495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef18d7fcd4ed0dbc103c5603cc57f227') in 0.007942 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 59.567834 seconds.
-  path: Assets/Scenes/Panopticon_Demo_Ver.2.unity
+  Time since last request: 19.432824 seconds.
+  path: Assets/Scenes/Panopticon_Demo 2.unity
   artifactKey: Guid(52d233ec4719995499379cc3bba58939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Panopticon_Demo_Ver.2.unity using Guid(52d233ec4719995499379cc3bba58939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3613ac8d494d8f4f7456d29f411761a') in 0.008172 seconds 
+Start importing Assets/Scenes/Panopticon_Demo 2.unity using Guid(52d233ec4719995499379cc3bba58939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9469f6ec9a148e2fecfe4c53a0650111') in 0.007956 seconds 
