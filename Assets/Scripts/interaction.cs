@@ -20,7 +20,7 @@ public class interaction : MonoBehaviour
         Debug.Log(index);
         if (index == -1)
         {
-            // dialogue Ã¢ ¾ø¾Ö±â anim
+            // dialogue ì°½ ì—†ì• ê¸° anim
             Debug.Log("dialogue end");
             index = 0;
             return;

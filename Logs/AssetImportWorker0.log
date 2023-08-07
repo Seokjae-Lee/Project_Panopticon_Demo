@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.22f1 (b6c551784ba3) revision 11978065'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ko' Physical Memory: 32655 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 32655 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -15,7 +15,7 @@ C:/Users/gltp5/Project_Panopticon_Demo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57839
+59957
 Successfully changed project path to: C:/Users/gltp5/Project_Panopticon_Demo
 C:/Users/gltp5/Project_Panopticon_Demo
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/gltp5/Project_Panopticon_Demo
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11500] Host "[IP] 192.168.45.11 [Port] 0 [Flags] 2 [Guid] 444382794 [EditorId] 444382794 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K46LT9I) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [9912] Host "[IP] 192.168.45.11 [Port] 0 [Flags] 2 [Guid] 1225374420 [EditorId] 1225374420 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K46LT9I) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [11500] Host "[IP] 192.168.45.11 [Port] 0 [Flags] 2 [Guid] 444382794 [EditorId] 444382794 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K46LT9I) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [9912] Host "[IP] 192.168.45.11 [Port] 0 [Flags] 2 [Guid] 1225374420 [EditorId] 1225374420 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K46LT9I) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 88.13 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 112.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.22f1 (b6c551784ba3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
@@ -67,54 +67,54 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56096
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008840 seconds.
+Registered in 0.008397 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 209 ms
+Android Extension - Scanning For ADB Devices 202 ms
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 85.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 102.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.721 seconds
+- Completed reload, in  0.741 seconds
 Domain Reload Profiling:
-	ReloadAssembly (721ms)
-		BeginReloadAssembly (61ms)
+	ReloadAssembly (742ms)
+		BeginReloadAssembly (68ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (585ms)
-			LoadAssemblies (59ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (598ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (86ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (17ms)
-			SetupLoadedEditorAssemblies (445ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (454ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (264ms)
+				InitializePlatformSupportModulesInManaged (259ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (86ms)
+				RefreshPlugins (102ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (66ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
+				ProcessInitializeOnLoadAttributes (61ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005777 seconds.
+Registered in 0.005814 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\gltp5\Project_Panopticon_Demo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\gltp5\Project_Panopticon_Demo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -122,33 +122,33 @@ Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 92.42 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 120.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.069 seconds
+- Completed reload, in  1.129 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1070ms)
-		BeginReloadAssembly (89ms)
+	ReloadAssembly (1130ms)
+		BeginReloadAssembly (92ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (890ms)
-			LoadAssemblies (71ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (954ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (177ms)
+			SetupTypeCache (190ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (576ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (618ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (27ms)
+				InitializePlatformSupportModulesInManaged (24ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (92ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (322ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				RefreshPlugins (121ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (332ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
@@ -168,12 +168,12 @@ Failed to load shader (instanceID 460, GUID da07703fcc09f8d4799221050659bd55)
 Failed to load shader (instanceID 556, GUID 2df96b66b5510f94b98df2ac6f926ef4)
 Failed to load shader (instanceID 560, GUID 95e15a77195eb574ab82aaac18b1c796)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4725 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (501.1 KB). Loaded Objects now: 5190.
-Memory consumption went from 193.0 MB to 192.5 MB.
-Total: 4.800100 ms (FindLiveObjects: 0.494000 ms CreateObjectMapping: 0.142300 ms MarkObjects: 3.881500 ms  DeleteObjects: 0.281600 ms)
+Unloading 4727 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (75.8 MB). Loaded Objects now: 5193.
+Memory consumption went from 199.4 MB to 123.6 MB.
+Total: 5.715200 ms (FindLiveObjects: 0.370800 ms CreateObjectMapping: 0.229100 ms MarkObjects: 4.921500 ms  DeleteObjects: 0.193100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -187,50 +187,189 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 173335.145959 seconds.
+  Time since last request: 152506.587550 seconds.
+  path: Assets/SyntyAssets/PolygonCasino/Materials/Alts/PolygonCasino_02_A.mat
+  artifactKey: Guid(6327a0fb9be03e8468f725d3f70ab306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyAssets/PolygonCasino/Materials/Alts/PolygonCasino_02_A.mat using Guid(6327a0fb9be03e8468f725d3f70ab306) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractive': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveTransparent': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveMasked': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Shader Graphs/Decal': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+ -> (artifact id: '62df94c3eedcc0f27f9f458eb63e0c87') in 0.234531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SyntyAssets/PolygonCasino/Materials/Alts/PolygonCasino_02_C.mat
+  artifactKey: Guid(125239b42b7c5364199a3857f6717ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyAssets/PolygonCasino/Materials/Alts/PolygonCasino_02_C.mat using Guid(125239b42b7c5364199a3857f6717ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f3d52f5c11e8e45f4148abefeaef7a') in 0.040402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/SyntyAssets/PolygonCasino/Materials/Alts/PolygonCasino_04_A.mat
+  artifactKey: Guid(f00a3b45e05d419418b5c895310e2d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyAssets/PolygonCasino/Materials/Alts/PolygonCasino_04_A.mat using Guid(f00a3b45e05d419418b5c895310e2d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a71b62aed575a19f532766c6a84de3') in 0.042300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SyntyAssets/PolygonCasino/Materials/Alts/PolygonCasino_03_B.mat
+  artifactKey: Guid(6ba74d37041883843a5f62f472be5755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyAssets/PolygonCasino/Materials/Alts/PolygonCasino_03_B.mat using Guid(6ba74d37041883843a5f62f472be5755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9110eaea833cc8a1a175598d8fcb706f') in 0.047258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 82.682948 seconds.
+  path: Assets/Samples/Universal RP/12.1.10/URP Package Samples
+  artifactKey: Guid(89c8e79ab301b18469135351b4c0f607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/12.1.10/URP Package Samples using Guid(89c8e79ab301b18469135351b4c0f607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f9cdef3f9e12e94caf9f2fedaa5e8c') in 0.008552 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006108 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gltp5\Project_Panopticon_Demo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gltp5\Project_Panopticon_Demo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractive': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveTransparent': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveMasked': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Shader Graphs/Decal': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.032 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1032ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (829ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (219ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (424ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (283ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Failed to load shader (instanceID 474, GUID 0f4122b9a743b744abe2fb6a0a88868b)
+Failed to load shader (instanceID 548, GUID a16365e8c873daa4c94919438490b905)
+Failed to load shader (instanceID 554, GUID 0d0f817524897904ba47a6a1d55e7668)
+Failed to load shader (instanceID 552, GUID 77cfa04f893eb8745b6a454a3d51b43c)
+Failed to load shader (instanceID 456, GUID 50b406436c6214c49aaaa6011b71dde8)
+Failed to load shader (instanceID 558, GUID 4386e57b23a56004c93e1d57d2bbcb4f)
+Failed to load shader (instanceID 458, GUID 5caf62d8bd7c44596ace77ef9eb8ea31)
+Failed to load shader (instanceID 550, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 480, GUID 69c1f799e772cb6438f56c23efccb782)
+Failed to load shader (instanceID 460, GUID da07703fcc09f8d4799221050659bd55)
+Failed to load shader (instanceID 556, GUID 2df96b66b5510f94b98df2ac6f926ef4)
+Failed to load shader (instanceID 560, GUID 95e15a77195eb574ab82aaac18b1c796)
+Refreshing native plugins compatible for Editor in 3.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4611 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (498.0 KB). Loaded Objects now: 5296.
+Memory consumption went from 202.1 MB to 201.6 MB.
+Total: 3.618800 ms (FindLiveObjects: 0.528300 ms CreateObjectMapping: 0.124400 ms MarkObjects: 2.774500 ms  DeleteObjects: 0.190500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 46.898146 seconds.
+  path: Assets/Samples/Universal RP/12.1.10/New Universal Render Pipeline Asset.asset
+  artifactKey: Guid(ab34269e3cd744645b7a08e3e3519357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/12.1.10/New Universal Render Pipeline Asset.asset using Guid(ab34269e3cd744645b7a08e3e3519357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06eec3444d06ff451b2e0473a440adc2') in 0.027452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 209.157333 seconds.
+  path: Assets/Samples/Universal RP/12.1.10
+  artifactKey: Guid(8a311fe2d17aebc498a0c4c3dfad56e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/12.1.10 using Guid(8a311fe2d17aebc498a0c4c3dfad56e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5e8ba2dbea7ecb87bd54825754e9b5') in 0.009575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.574959 seconds.
+  path: Assets/Samples/Universal RP/12.1.10/URP Package Samples/CameraStacking
+  artifactKey: Guid(fca0937eee5fe4bb395cbd033df1509d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/12.1.10/URP Package Samples/CameraStacking using Guid(fca0937eee5fe4bb395cbd033df1509d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35ac3f23a696ff83a73051fa7f32879') in 0.008677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.761422 seconds.
+  path: Assets/Samples/Universal RP/12.1.10/URP Package Samples/Decals
+  artifactKey: Guid(dd4cd650b519e406f8d446caede2b85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/12.1.10/URP Package Samples/Decals using Guid(dd4cd650b519e406f8d446caede2b85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6139de778c24a5e0022e03e245bb49') in 0.009333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.102290 seconds.
+  path: Assets/Samples/Universal RP
+  artifactKey: Guid(9ab5be36814cff24185fe99d34282032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP using Guid(9ab5be36814cff24185fe99d34282032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f6774a5434750acc3425e85e4f2dbb') in 0.008366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.545889 seconds.
   path: Assets/Prefabs/cell_allwindow.prefab
   artifactKey: Guid(93092aef779b34c298cd0e9d7ab85d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prefabs/cell_allwindow.prefab using Guid(93092aef779b34c298cd0e9d7ab85d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractive': fallback shader 'Hidden/Shader Graph/FallbackError' not found
 Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveTransparent': fallback shader 'Hidden/Shader Graph/FallbackError' not found
 Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveMasked': fallback shader 'Hidden/Shader Graph/FallbackError' not found
 Shader 'Shader Graphs/Decal': fallback shader 'Hidden/Shader Graph/FallbackError' not found
- -> (artifact id: 'd540be851903f51e8abea9465c42f4aa') in 0.215610 seconds 
+ -> (artifact id: '22b5d85fae0a91f81cdc1620e39eefbe') in 0.687730 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Prefabs/cell_small.prefab
-  artifactKey: Guid(b3605927c71fc414faeb24def5c84033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/cell_small.prefab using Guid(b3605927c71fc414faeb24def5c84033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03598c3ff16d323320e86c898cb3f71b') in 0.015641 seconds 
+  Time since last request: 22.908107 seconds.
+  path: Assets/SyntyAssets/PolygonCasino/Materials
+  artifactKey: Guid(b5696dc31e8468c4196bafb150307bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyAssets/PolygonCasino/Materials using Guid(b5696dc31e8468c4196bafb150307bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6253a6c29035170c94f5be8130628168') in 0.009796 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Prefabs/Cell_Stairs_UP.prefab
-  artifactKey: Guid(9cc89dd63235b6a4a8d6f914f1fc6173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cell_Stairs_UP.prefab using Guid(9cc89dd63235b6a4a8d6f914f1fc6173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae05773e51f2bb43aa74902249554ff') in 0.020195 seconds 
+  Time since last request: 1.097602 seconds.
+  path: Assets/SyntyAssets/PolygonCasino/Materials/Alts
+  artifactKey: Guid(1d59f9df288dfac41a4052a87d0794c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyAssets/PolygonCasino/Materials/Alts using Guid(1d59f9df288dfac41a4052a87d0794c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fafd622dcf7deea854e1e12ebf8b0a8') in 0.009657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.844824 seconds.
+  path: Assets/SyntyAssets/PolygonCasino/Materials/Backgrounds/Background_Building_01.mat
+  artifactKey: Guid(47106f0800b2b654bb1b054fd60672bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyAssets/PolygonCasino/Materials/Backgrounds/Background_Building_01.mat using Guid(47106f0800b2b654bb1b054fd60672bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778dd42fe16ba7da21958a0bc4f7d516') in 0.026694 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/Prefabs/Cell_Patient.prefab
-  artifactKey: Guid(4356ec0c872ee9f479330c051ec00771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cell_Patient.prefab using Guid(4356ec0c872ee9f479330c051ec00771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b176fb171f7bb2cc9b77beab4df2d4') in 0.019711 seconds 
+  path: Assets/SyntyAssets/PolygonCasino/Materials/Backgrounds/Background_Building_05.mat
+  artifactKey: Guid(5f7f0c37c9a476a468bb257f0a511a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyAssets/PolygonCasino/Materials/Backgrounds/Background_Building_05.mat using Guid(5f7f0c37c9a476a468bb257f0a511a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd3423bd392fde100eb0c615911ea42') in 0.020156 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.692234 seconds.
-  path: Assets/Settings/URP-Balanced-Renderer.asset
-  artifactKey: Guid(e634585d5c4544dd297acaee93dc2beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/URP-Balanced-Renderer.asset using Guid(e634585d5c4544dd297acaee93dc2beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4181a306404bb59aac3e2058a1d36c9') in 0.014719 seconds 
+  Time since last request: 0.000024 seconds.
+  path: Assets/SyntyAssets/PolygonCasino/Materials/Backgrounds/Background_Building_06.mat
+  artifactKey: Guid(038f3b57a8e465b4d83a314c15d7ea5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyAssets/PolygonCasino/Materials/Backgrounds/Background_Building_06.mat using Guid(038f3b57a8e465b4d83a314c15d7ea5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5811460a0469ebceddfe6ffe0cf398') in 0.019247 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Settings/URP-HighFidelity-Renderer.asset
-  artifactKey: Guid(c40be3174f62c4acf8c1216858c64956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/URP-HighFidelity-Renderer.asset using Guid(c40be3174f62c4acf8c1216858c64956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b173ea8e8a9e75791abfdca0f96cbef') in 0.008693 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.420775 seconds.
-  path: Assets/SkySeries Freebie/UnderTheSea4k.mat
-  artifactKey: Guid(119ec07f1c7ed204db46bd8465fd5a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/UnderTheSea4k.mat using Guid(119ec07f1c7ed204db46bd8465fd5a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eaa8b7abe9eacfaf07c9ffab9ca8b5e') in 0.077459 seconds 
+  Time since last request: 11.136802 seconds.
+  path: Assets/SyntyAssets/PolygonCasino/Materials/Cards/Cards_Clubs_Mat.mat
+  artifactKey: Guid(8e96d64a10af5da41b133505da971673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyAssets/PolygonCasino/Materials/Cards/Cards_Clubs_Mat.mat using Guid(8e96d64a10af5da41b133505da971673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f038d43ff3b7dc79da6aeabc1a55f1c1') in 0.019906 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
