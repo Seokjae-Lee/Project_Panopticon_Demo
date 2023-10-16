@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,7 +10,7 @@ public class camera : info
     public float zoomSpeed;
     public float zoomDuration;
     public float duration; // 1
-    public float cellHeight; // 5.1
+    public float cellHeight; // 8.5
     public float zoomRate; // 1
     public GameObject blackoutPanel;
 
